@@ -1,0 +1,60 @@
+.reviewCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.reviewContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.reviewTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewDescriptionContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reviewDescription {
+  font-size: 13px;
+  text-align: left;
+  margin: 0;
+  max-height: 3em;
+  transition: all 0.3s ease-in-out, 0.3s ease-in-out, opacity 0.2s ease-in-out;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  span {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.reviewDescription::-webkit-scrollbar {
+  display: none;
+}
+
+.expanded {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.collapsed {
+  max-height: 3em;
+  opacity: 1;
+}
+
+.toggleButton {
+  height: 100%;
+  width: 100%;
+  color: #4ea4d2;
+}

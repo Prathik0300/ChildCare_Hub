@@ -1,0 +1,198 @@
+.babysitterProfileContainer {
+  width: 100%;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.babysitterProfileHeader {
+  background-color: #b8e2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.babysitterProfileIcon {
+  font-size: 32px !important;
+}
+
+.bookmarkIcon {
+  font-size: 32px;
+}
+
+.babysitterProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 0 0;
+}
+
+.profileBabysitterName {
+  margin: 13px 0;
+  font-size: 24px;
+}
+
+.babysitterHourlyRate {
+  margin: 0;
+}
+
+.babysitterProfileActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.profileCallActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profileDistance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profileIconsWithBg {
+  font-size: 35px !important;
+  color: #f9f9f9;
+  background-color: #77c3ec;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.profileChecklist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  font-size: 14px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.divider {
+  margin: 0 20px 20px 20px;
+  border: 1px solid #dfe2e4;
+}
+
+.profileBio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0 20px 20px 20px;
+  font-size: 15px;
+  div {
+    text-align: left;
+    font-size: 15px;
+  }
+}
+
+.babysitterQualification {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.qualificationTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  font-size: 15px;
+
+  div {
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #b8e2f2;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.qualificationTags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 12px;
+  flex-wrap: wrap;
+  padding: 0 20px 20px 20px;
+}
+
+.qualification {
+  background-color: #d9d9d9;
+  padding: 5px 15px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.availabilityContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20px 20px 20px;
+}
+
+.viewAvailabilityBtn {
+  width: 100%;
+  background-color: #77c3ec;
+}
+
+.selectedSlot {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  min-height: 75px;
+  border-radius: 5px;
+  font-style: italic;
+  text-align: left;
+  font-size: 14px;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+}
+
+.reviewTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 100%;
+}

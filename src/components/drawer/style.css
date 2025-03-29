@@ -1,0 +1,36 @@
+.drawerContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: none;
+}
+
+.drawerInnerContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: #b8e2f2;
+  position: relative;
+  border-bottom: 2px solid #9dd9f3;
+}
+
+.closeIcon {
+  width: 1%;
+  color: #000;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.drawerHandle {
+  width: 50px;
+  height: 5px;
+  transform: translateX(-10px);
+  border-radius: 10px;
+  background-color: #444;
+  margin: 0 auto;
+}
+
+.drawerContent {
+  padding: 20px;
+}
