@@ -13,6 +13,56 @@ export const BABYSITTER_INFO = [
     time: 20,
     rate: 17,
     profileImage: Profile,
+    availabilitySlots: {
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "8:00 AM",
+            endTime: "3:00 PM",
+          },
+          {
+            startTime: "6:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeAvailability: [
+          {
+            startTime: "8:00 AM",
+            endTime: "3:00 PM",
+          },
+          {
+            startTime: "6:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeAvailability: [
+          {
+            startTime: "8:00 AM",
+            endTime: "3:00 PM",
+          },
+          {
+            startTime: "6:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeAvailability: [
+          {
+            startTime: "8:00 AM",
+            endTime: "3:00 PM",
+          },
+          {
+            startTime: "6:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+    },
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     qualifications: [

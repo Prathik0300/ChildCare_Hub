@@ -16,7 +16,8 @@
 }
 
 .chip {
-  height: 23px !important;
+  max-height: 25px !important;
+  overflow: hidden;
   border-radius: 5px !important;
   padding: 10px !important;
 }
