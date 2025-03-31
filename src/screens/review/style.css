@@ -1,0 +1,130 @@
+.reviewScreenContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.reviewScreenHeader {
+  background-color: #b8e2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  p {
+    margin: 0;
+  }
+}
+
+.reviewScreenIcon {
+  font-size: 32px !important;
+}
+
+.bookmarkIcon {
+  font-size: 32px;
+}
+
+.reviewScreenDivider {
+  margin: 0 20px 20px 20px;
+  border: 1px solid #dfe2e4;
+}
+
+.reviewScreenProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 0 0;
+}
+
+.reviewScreenBabysitterName {
+  margin: 13px 0;
+  font-size: 24px;
+}
+
+.reviewScreenBabysitterHourlyRate {
+  margin: 0;
+}
+
+.reviewScreenActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.reviewScreenCallActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reviewScreenDistance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reviewScreenIconsWithBg {
+  font-size: 35px !important;
+  color: #f9f9f9;
+  background-color: #77c3ec;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.reviewScreenContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  min-height: calc(100vh - 509px);
+}
+
+.reviewScreenShiftDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 20px 20px 20px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.reviewScreenTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.reviewScreenShift {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reviewScreenSelectedSlot {
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  text-align: right;
+}
+
+.reviewScreenTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  width: 100%;
+}

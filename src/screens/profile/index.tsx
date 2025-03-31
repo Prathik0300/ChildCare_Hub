@@ -3,33 +3,51 @@ import { BABYSITTER_INFO } from "../../constants/babysitter";
 import "./style.css";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
-import { Avatar, Button, Rating } from "@mui/material";
+import { Button, Rating } from "@mui/material";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import CallIcon from "@mui/icons-material/Call";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CheckIcon from "@mui/icons-material/Check";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Review from "../../components/review";
 import Calendar from "../../components/calendar";
-import dayjs from "dayjs";
+import { useAppContext } from "../../context/hooks/useAppContext";
+import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
   const { babysitterIndex } = useParams();
   const [openCalendar, setOpenCalendar] = useState(false);
-  const [selectedSlot, setSelectedSlot] = useState(dayjs());
-  const [startTime, setStartTime] = useState("");
-  const [startTimePeriod, setStartTimePeriod] = useState("AM");
-  const [endTime, setEndTime] = useState("");
-  const [endTimePeriod, setEndTimePeriod] = useState("AM");
-  const [selectedSlotText, setSelectedSlotText] = useState(
-    "Selected times will appear here."
-  );
+
+  const navigate = useNavigate();
+  const {
+    appContextValue: {
+      selectedSlot,
+      startTime,
+      startTimePeriod,
+      endTime,
+      endTimePeriod,
+      selectedSlotText,
+    },
+    appContextUpdater: {
+      setSelectedSlot,
+      setStartTime,
+      setStartTimePeriod,
+      setEndTime,
+      setEndTimePeriod,
+      setSelectedSlotText,
+    },
+  } = useAppContext();
   const selectedBabysitter = BABYSITTER_INFO.find(
     (babysitter) => babysitter.id === babysitterIndex
   );
 
+
   const toggleCalendarOpen = () => {
     setOpenCalendar((prev) => !prev);
+  };
+
+  const handleBookSitter = () => {
+    navigate(`/review/${babysitterIndex}`);
   };
 
   if (!selectedBabysitter) return <></>;
@@ -151,6 +169,7 @@ const Profile = () => {
             padding: "15px",
           }}
           disabled={!startTime || !endTime}
+          onClick={handleBookSitter}
         >
           Book this Babysitter
         </Button>

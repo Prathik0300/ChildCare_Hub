@@ -1,0 +1,82 @@
+.bookingConfirmedContainer {
+  height: 100%;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.confirmationProfilePic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  gap: 17px;
+}
+
+.checkIcon {
+  font-size: 55px !important;
+  color: #77c3ec;
+}
+
+.confirmedTitle {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.confirmedPageDivider {
+  border: 1px solid #dfe2e4;
+  margin: 0 40px 0px 40px;
+}
+
+.confirmedScreenContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 40px 40px 40px;
+  min-height: calc(100vh - 456px);
+}
+
+.confirmedScreenShiftDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 0px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.confirmedScreenTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.confirmedScreenShift {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.confirmedScreenSelectedSlot {
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  text-align: right;
+}
+
+.confirmedScreenText {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.confirmedScreenActionContainer {
+  display: flex;
+  width: 100%;
+}

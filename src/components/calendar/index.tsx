@@ -10,6 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { DateCalendar, LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { Dayjs } from "dayjs";
+import { useEffect, useState } from "react";
 
 const PeriodToggle = ({ timePeriod, setTimePeriod }: any) => {
   return (
@@ -67,15 +68,58 @@ const Calendar = ({
   setEndTime,
   endTimePeriod,
   setEndTimePeriod,
+  isReset = true,
 }: any) => {
+  const [timeError, setTimeError] = useState("");
+
+  useEffect(() => {
+    validateTime();
+  }, [startTime, startTimePeriod, endTime, endTimePeriod]);
+
+  const handleTimeChange = (e: any, setTime: any, setTimePeriod: any) => {
+    const timeValue = e.target.value; // Example: "14:30"
+    setTime(timeValue);
+
+    // Extract hours
+    const [hours] = timeValue.split(":").map(Number);
+
+    // Determine AM or PM
+    if (hours >= 12) {
+      setTimePeriod("PM");
+    } else {
+      setTimePeriod("AM");
+    }
+  };
+
+  const validateTime = () => {
+    const getTimeIn24 = (time: string, period: string) => {
+      let [hours, minutes] = time.split(":").map(Number);
+      if (period === "PM" && hours !== 12) hours += 12;
+      if (period === "AM" && hours === 12) hours = 0;
+      return hours * 60 + minutes; // Convert to minutes
+    };
+    console.log({ startTime, endTime });
+    const start = getTimeIn24(startTime, startTimePeriod);
+    const end = getTimeIn24(endTime, endTimePeriod);
+
+    if (end <= start) {
+      setTimeError("End time must be after start time");
+    } else {
+      setTimeError("");
+    }
+  };
+
   const handleDateChange = (newDate: Dayjs | null) => {
     setSelectedSlot(newDate);
     console.log("Selected Date:", newDate?.format("YYYY-MM-DD"));
   };
 
   const handleModalClose = () => {
-    setStartTime("");
-    setEndTime("");
+    if (isReset) {
+      setStartTime("");
+      setEndTime("");
+      setSelectedSlotText("Selected times will appear here.");
+    }
     onClose();
   };
 
@@ -87,6 +131,7 @@ const Calendar = ({
     );
     onClose();
   };
+
   console.log({ selectedSlot });
   return (
     <Dialog
@@ -161,7 +206,10 @@ const Calendar = ({
           <TextField
             type="time"
             value={startTime}
-            onChange={(e) => setStartTime(e.target.value)}
+            onChange={(e) =>
+              handleTimeChange(e, setStartTime, setStartTimePeriod)
+            }
+            error={!!timeError}
             sx={{
               "& input[type=time]::-webkit-calendar-picker-indicator": {
                 display: "none",
@@ -180,7 +228,8 @@ const Calendar = ({
           <TextField
             type="time"
             value={endTime}
-            onChange={(e) => setEndTime(e.target.value)}
+            onChange={(e) => handleTimeChange(e, setEndTime, setEndTimePeriod)}
+            error={!!timeError}
             sx={{
               "& input[type=time]::-webkit-calendar-picker-indicator": {
                 display: "none",
@@ -204,6 +253,7 @@ const Calendar = ({
           color: "#000",
           padding: "15px",
         }}
+        disabled={!!timeError}
         onClick={handleConfirmTime}
       >
         Confirm Time

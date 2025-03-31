@@ -1,5 +1,5 @@
 import "./style.css";
-import { Avatar, Button, Rating } from "@mui/material";
+import { Avatar, Rating } from "@mui/material";
 import { useState } from "react";
 
 const Review = ({ review }: any) => {
