@@ -56,6 +56,10 @@ const ReviewScreen = () => {
     navigate(`/confirmed/${babysitterIndex}`);
   };
 
+  const handleMessageBabySitter = () =>  {
+    navigate(`/message/${babysitterIndex}`)
+  }
+  
   const hoursCovered = calculateHoursCovered(
     startTime,
     startTimePeriod,
@@ -104,7 +108,7 @@ const ReviewScreen = () => {
         <div className="reviewScreenActions">
           <div className="reviewScreenCallActions">
             <CallIcon className="reviewScreenIconsWithBg" />
-            <ChatBubbleIcon className="reviewScreenIconsWithBg" />
+            <ChatBubbleIcon className="reviewScreenIconsWithBg" onClick={handleMessageBabySitter} />
           </div>
           <div className="reviewScreenDistance">
             {selectedBabysitter.time} min

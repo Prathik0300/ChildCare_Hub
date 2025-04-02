@@ -41,7 +41,6 @@ const Profile = () => {
     (babysitter) => babysitter.id === babysitterIndex
   );
 
-
   const toggleCalendarOpen = () => {
     setOpenCalendar((prev) => !prev);
   };
@@ -49,6 +48,10 @@ const Profile = () => {
   const handleBookSitter = () => {
     navigate(`/review/${babysitterIndex}`);
   };
+
+  const handleMessageBabySitter = () =>  {
+    navigate(`/message/${babysitterIndex}`)
+  }
 
   if (!selectedBabysitter) return <></>;
 
@@ -92,7 +95,7 @@ const Profile = () => {
         <div className="babysitterProfileActions">
           <div className="profileCallActions">
             <CallIcon className="profileIconsWithBg" />
-            <ChatBubbleIcon className="profileIconsWithBg" />
+            <ChatBubbleIcon className="profileIconsWithBg" onClick={handleMessageBabySitter}/>
           </div>
           <div className="profileDistance">
             {selectedBabysitter.time} min
