@@ -116,6 +116,11 @@ export const BABYSITTER_INFO = [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
     ],
+    messages: [
+      { from: "You", message: "Can you babysit on short notice?" },
+      { from: "babySiter", message: "Yes!!" },
+      { from: "You", message: "Are you available next Friday?" },
+    ],
   },
   {
     id: "emanuel-hanna",
@@ -181,6 +186,12 @@ export const BABYSITTER_INFO = [
         review:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
+    ],
+    messages: [
+      { from: "You", message: "Can you babysit on later notice?" },
+      { from: "babySiter", message: "No, sorry..." },
+      { from: "You", message: "Are you available next Sunday?" },
+      { from: "babySiter", message: "Yes, i am available, let me know your times" },
     ],
   },
   {
@@ -248,6 +259,11 @@ export const BABYSITTER_INFO = [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
     ],
+    messages: [
+      { from: "You", message: "Can you babysit on for a week?" },
+      { from: "You", message: "Are you available on holidays?" },
+      { from: "bodysiter", message: "No, sorry" },
+    ],
   },
   {
     id: "frida-keller",
@@ -314,6 +330,11 @@ export const BABYSITTER_INFO = [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
     ],
+    messages: [
+      { from: "You", message: "Can you babysit on for a weekdays for like 3pm to 10pm?" },
+      { from: "bodysiter", message: "Yes" },
+      { from: "You", message: "Are you available for late nights?" },
+    ],
   },
   {
     id: "neil-baldwin",
@@ -379,6 +400,11 @@ export const BABYSITTER_INFO = [
         review:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       },
+    ],
+    messages: [
+      { from: "You", message: "Can you babysit on for a weekdays?" },
+      { from: "You", message: "Are you available for today?" },
+      { from: "bodysiter", message: "Yes" },
     ],
   },
 ];

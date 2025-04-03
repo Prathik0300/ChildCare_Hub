@@ -5,6 +5,8 @@ import Profile from "../screens/profile";
 import AppContextProvider from "../context/appContext";
 import ReviewScreen from "../screens/review";
 import BookingConfirmed from "../screens/bookingConfirmed";
+import Message from "../screens/message";
+
 export default function AppRoutes() {
   return (
     <AppContextProvider>
@@ -16,6 +18,10 @@ export default function AppRoutes() {
         <Route
           path="confirmed/:babysitterIndex"
           element={<BookingConfirmed />}
+        />
+        <Route
+          path="message/:babysitterIndex"
+          element={<Message />}
         />
       </Routes>
     </AppContextProvider>
