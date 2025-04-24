@@ -62,7 +62,8 @@
 .timeSlotContainer {
   font-size: 12px;
   padding: 10px 12px;
-  min-width: 150px;
+  min-width: 160px;
+  width: fit-content;
   background-color: #dfe2e4;
   font-weight: bold;
   border-radius: 5px;

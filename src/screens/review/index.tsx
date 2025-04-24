@@ -2,21 +2,26 @@ import "./style.css";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
-import { BABYSITTER_INFO } from "../../constants/babysitter";
+// import { BABYSITTER_INFO } from "../../constants/babysitter";
 import { useAppContext } from "../../context/hooks/useAppContext";
 import { Button, Rating } from "@mui/material";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import CallIcon from "@mui/icons-material/Call";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EditIcon from "@mui/icons-material/Edit";
-import { calculateHoursCovered } from "../../utils";
+import {
+  addBookedSitter,
+  calculateHoursCovered,
+  getLocalStorageItem,
+} from "../../utils";
 import { useEffect, useState } from "react";
 import Calendar from "../../components/calendar";
 
 const ReviewScreen = () => {
   const { babysitterIndex } = useParams();
   const [openCalendar, setOpenCalendar] = useState(false);
-
+  const BABYSITTER_INFO: Record<string, any> =
+    getLocalStorageItem("BABYSITTER_INFO");
   const {
     appContextValue: {
       selectedSlot,
@@ -53,13 +58,24 @@ const ReviewScreen = () => {
   };
 
   const handleConfirmBooking = () => {
+    addBookedSitter({
+      ...selectedBabysitter,
+      shiftDetails: {
+        startTime,
+        startTimePeriod,
+        endTime,
+        endTimePeriod,
+        date: selectedSlot?.format("MMMM DD, YYYY"),
+        totalCost,
+      },
+    });
     navigate(`/confirmed/${babysitterIndex}`);
   };
 
-  const handleMessageBabySitter = () =>  {
-    navigate(`/message/${babysitterIndex}`)
-  }
-  
+  const handleMessageBabySitter = () => {
+    navigate(`/message/${babysitterIndex}?source=review`);
+  };
+
   const hoursCovered = calculateHoursCovered(
     startTime,
     startTimePeriod,
@@ -108,11 +124,13 @@ const ReviewScreen = () => {
         <div className="reviewScreenActions">
           <div className="reviewScreenCallActions">
             <CallIcon className="reviewScreenIconsWithBg" />
-            <ChatBubbleIcon className="reviewScreenIconsWithBg" onClick={handleMessageBabySitter} />
+            <ChatBubbleIcon
+              className="reviewScreenIconsWithBg"
+              onClick={handleMessageBabySitter}
+            />
           </div>
           <div className="reviewScreenDistance">
-            {selectedBabysitter.time} min
-            {selectedBabysitter.time > 1 ? "s" : ""} away
+            {selectedBabysitter.distance} mi. away
             <LocationOnIcon className="reviewScreenIconsWithBg" />
           </div>
         </div>

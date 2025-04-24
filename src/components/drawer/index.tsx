@@ -2,8 +2,12 @@ import { Drawer } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import "./style.css";
+import { useAppContext } from "../../context/hooks/useAppContext";
 
 const FilterDrawer = ({ open, onCloseHandler, children }: any) => {
+  const {
+    appContextUpdater: { resetFilterValues },
+  } = useAppContext();
   return (
     <Drawer
       anchor="bottom"
@@ -14,7 +18,7 @@ const FilterDrawer = ({ open, onCloseHandler, children }: any) => {
       }}
       sx={{
         "& .MuiDrawer-paper": {
-          backgroundColor: "#b8e2f2",
+          backgroundColor: "#fff",
           color: "#000",
           borderTopLeftRadius: "20px",
           borderTopRightRadius: "20px",
@@ -23,10 +27,16 @@ const FilterDrawer = ({ open, onCloseHandler, children }: any) => {
     >
       <div className="drawerContainer">
         <div className="drawerInnerContainer">
-          <IconButton onClick={onCloseHandler} className="closeIcon">
+          {/* <IconButton onClick={onCloseHandler} className="closeIcon">
             <CloseIcon />
-          </IconButton>
+          </IconButton> */}
+          <div className="filterCta" onClick={resetFilterValues}>
+            Reset
+          </div>
           <div className="drawerHandle"></div>
+          <div className="filterCta" onClick={onCloseHandler}>
+            Cancel
+          </div>
         </div>
         <div className="drawerContent">{children}</div>
       </div>

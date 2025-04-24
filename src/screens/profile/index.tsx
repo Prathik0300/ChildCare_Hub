@@ -1,8 +1,7 @@
 import { Link, useParams } from "react-router-dom";
-import { BABYSITTER_INFO } from "../../constants/babysitter";
+// import { BABYSITTER_INFO } from "../../constants/babysitter";
 import "./style.css";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
-import BookmarkIcon from "@mui/icons-material/Bookmark";
 import { Button, Rating } from "@mui/material";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import CallIcon from "@mui/icons-material/Call";
@@ -13,12 +12,25 @@ import Review from "../../components/review";
 import Calendar from "../../components/calendar";
 import { useAppContext } from "../../context/hooks/useAppContext";
 import { useNavigate } from "react-router-dom";
+import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
+import BookmarkIcon from "@mui/icons-material/Bookmark";
+import { getLocalStorageItem, setLocalStorageItem } from "../../utils";
+import { useLocation } from "react-router-dom";
+
+export const useQueryParams = () => {
+  const { search } = useLocation();
+  return new URLSearchParams(search);
+};
 
 const Profile = () => {
+  const query = useQueryParams();
+  const source = query.get("source"); // "doctor"
   const { babysitterIndex } = useParams();
   const [openCalendar, setOpenCalendar] = useState(false);
-
+  const [favSitter, setFavSitter] = useState(false);
   const navigate = useNavigate();
+  const BABYSITTER_INFO: Record<string, any> =
+    getLocalStorageItem("BABYSITTER_INFO");
   const {
     appContextValue: {
       selectedSlot,
@@ -27,6 +39,7 @@ const Profile = () => {
       endTime,
       endTimePeriod,
       selectedSlotText,
+      qualifications,
     },
     appContextUpdater: {
       setSelectedSlot,
@@ -37,10 +50,39 @@ const Profile = () => {
       setSelectedSlotText,
     },
   } = useAppContext();
+
+  const isQualificationMatch = (sitterQuals: string) => {
+    const matchCount = qualifications
+      .map((q) => q.toLowerCase())
+      .filter(
+        (q) =>
+          sitterQuals.toLowerCase().includes(q) ||
+          q.includes(sitterQuals.toLowerCase())
+      ).length;
+
+    if (matchCount > 0) {
+      return true;
+    }
+    return false;
+  };
+
   const selectedBabysitter = BABYSITTER_INFO.find(
     (babysitter) => babysitter.id === babysitterIndex
   );
+  const getQualificationMatchCount = (): number => {
+    if (!qualifications.length) return 0;
 
+    return selectedBabysitter["qualifications"].filter((sitterQual) =>
+      qualifications.some(
+        (filterQual) =>
+          sitterQual.toLowerCase().includes(filterQual.toLowerCase()) ||
+          filterQual.toLowerCase().includes(sitterQual.toLowerCase())
+      )
+    ).length;
+  };
+
+  const index = BABYSITTER_INFO.findIndex((b) => b.id === babysitterIndex);
+  console.log({ selectedBabysitter });
   const toggleCalendarOpen = () => {
     setOpenCalendar((prev) => !prev);
   };
@@ -49,9 +91,23 @@ const Profile = () => {
     navigate(`/review/${babysitterIndex}`);
   };
 
-  const handleMessageBabySitter = () =>  {
-    navigate(`/message/${babysitterIndex}`)
-  }
+  const handleMessageBabySitter = () => {
+    navigate(`/message/${babysitterIndex}?source=profile`);
+  };
+
+  const toggleFavSitter = () => {
+    setFavSitter((prev) => !prev);
+    BABYSITTER_INFO[index].favorite = !favSitter;
+
+    setLocalStorageItem("BABYSITTER_INFO", BABYSITTER_INFO);
+    console.log({ selectedBabysitter });
+  };
+
+  useEffect(() => {
+    if (selectedBabysitter) {
+      setFavSitter(selectedBabysitter.favorite);
+    }
+  }, [selectedBabysitter]);
 
   if (!selectedBabysitter) return <></>;
 
@@ -59,11 +115,21 @@ const Profile = () => {
     <>
       <div className="babysitterProfileContainer" key={selectedBabysitter.id}>
         <div className="babysitterProfileHeader">
-          <Link to="/search" className="generalLink">
+          <Link
+            to={`${source ? `/${source}` : "/search"}`}
+            className="generalLink"
+          >
             <ChevronLeftIcon className="babysitterProfileIcon" />
           </Link>
           <p>Babysitter Profile</p>
-          <BookmarkIcon className="bookmarkIcon" />
+          {favSitter ? (
+            <BookmarkIcon onClick={toggleFavSitter} className="bookmarkIcon" />
+          ) : (
+            <BookmarkBorderIcon
+              onClick={toggleFavSitter}
+              className="bookmarkIcon"
+            />
+          )}
         </div>
         <div className="babysitterProfile">
           <img
@@ -95,11 +161,13 @@ const Profile = () => {
         <div className="babysitterProfileActions">
           <div className="profileCallActions">
             <CallIcon className="profileIconsWithBg" />
-            <ChatBubbleIcon className="profileIconsWithBg" onClick={handleMessageBabySitter}/>
+            <ChatBubbleIcon
+              className="profileIconsWithBg"
+              onClick={handleMessageBabySitter}
+            />
           </div>
           <div className="profileDistance">
-            {selectedBabysitter.time} min
-            {selectedBabysitter.time > 1 ? "s" : ""} away
+            {selectedBabysitter.distance} mi. away
             <LocationOnIcon className="profileIconsWithBg" />
           </div>
         </div>
@@ -122,14 +190,22 @@ const Profile = () => {
         <div className="babysitterQualification">
           <div className="qualificationTitle">
             <h3>Qualifications</h3>
-            <div>Matched</div>
+            {getQualificationMatchCount() > 0 && <div>Matched</div>}
           </div>
           <div className="qualificationTags">
-            {selectedBabysitter.qualifications.map((qualification) => (
-              <div key={qualification} className="qualification">
-                {qualification}
-              </div>
-            ))}
+            {selectedBabysitter.qualifications.map((qualification) => {
+              const isMatched = isQualificationMatch(qualification);
+              return (
+                <div
+                  key={qualification}
+                  className={`qualification ${
+                    isMatched ? "matchedQualification" : ""
+                  }`}
+                >
+                  {qualification}
+                </div>
+              );
+            })}
           </div>
         </div>
         <hr className="divider" />

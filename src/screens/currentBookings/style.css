@@ -1,0 +1,78 @@
+.currentBookingsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookedSitterHeader {
+  width: 100%;
+  background-color: #b8e2f2;
+  color: #000;
+  max-height: 85px;
+  font-size: 16px;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.bookedCardContainer {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.sitterCard {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 200px;
+  gap: 20px;
+  border: 1px solid #d9d9d9;
+}
+
+.sitterCardInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.bookedSitterName {
+  font-size: 20px;
+}
+
+.bookedCardImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.bookedSitterInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.bookedSitterCtaContainer {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  z-index: 100;
+}
+
+.bookedSitterCta {
+  width: 100%;
+}

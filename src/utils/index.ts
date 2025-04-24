@@ -1,3 +1,5 @@
+import { BOOKED_SITTERS_KEY } from "../constants";
+
 export const calculateHoursCovered = (
   startTime: string,
   startPeriod: string,
@@ -36,4 +38,49 @@ export const calculateHoursCovered = (
 
   // Calculate total hours (rounded to 2 decimal places)
   return ((endTotalMinutes - startTotalMinutes) / 60).toFixed(2);
+};
+
+// utils/localStorageUtil.ts
+export const setLocalStorageItem = <T>(key: string, value: T): void => {
+  try {
+    const serializedValue = JSON.stringify(value);
+    localStorage.setItem(key, serializedValue);
+  } catch (error) {
+    console.error(`Error setting localStorage key "${key}":`, error);
+  }
+};
+
+export const getLocalStorageItem = <T>(key: string): T | null => {
+  try {
+    const item = localStorage.getItem(key);
+    return item ? (JSON.parse(item) as T) : null;
+  } catch (error) {
+    console.error(`Error getting localStorage key "${key}":`, error);
+    return null;
+  }
+};
+
+export const removeLocalStorageItem = (key: string): void => {
+  try {
+    localStorage.removeItem(key);
+  } catch (error) {
+    console.error(`Error removing localStorage key "${key}":`, error);
+  }
+};
+
+export const getBookedSitters = () => {
+  const data = localStorage.getItem(BOOKED_SITTERS_KEY);
+  return data ? JSON.parse(data) : [];
+};
+
+export const addBookedSitter = (sitter: any) => {
+  const current = getBookedSitters();
+  const updated = [...current, sitter];
+  localStorage.setItem(BOOKED_SITTERS_KEY, JSON.stringify(updated));
+};
+
+export const removeBookedSitter = (sitterId: string) => {
+  const current = getBookedSitters();
+  const updated = current.filter((s: any) => s.id !== sitterId);
+  localStorage.setItem(BOOKED_SITTERS_KEY, JSON.stringify(updated));
 };

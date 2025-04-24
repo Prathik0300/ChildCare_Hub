@@ -1,15 +1,15 @@
 import { useState, useEffect, useRef } from "react";
 import "./style.css";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
-import { BABYSITTER_INFO } from "../../constants/babysitter";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import CallIcon from "@mui/icons-material/Call";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import CloseIcon from "@mui/icons-material/Close";
+import { getLocalStorageItem } from "../../utils";
+import { useQueryParams } from "../profile";
 
-// Define message interface
 interface Message {
   id: string;
   from: "You" | string;
@@ -18,7 +18,7 @@ interface Message {
   attachment?: {
     name: string;
     type: string;
-    data: string; // Base64 encoded file data
+    data: string;
   };
 }
 
@@ -29,7 +29,11 @@ const MessageComponent = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
-  const location = useLocation();
+  const query = useQueryParams();
+  const source = query.get("source"); // "doctor"
+
+  const BABYSITTER_INFO: Record<string, any> =
+    getLocalStorageItem("BABYSITTER_INFO");
   const { babysitterIndex } = useParams();
   const [previousPath, setPreviousPath] = useState("/");
 
@@ -48,42 +52,48 @@ const MessageComponent = () => {
   const getStorageKey = () => `messages_${babysitterIndex}`;
   const scrollToBottom = () =>
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+
   useEffect(() => {
-    const prevPath = location.state?.from || `/review/${babysitterIndex}`;
-    setPreviousPath(prevPath);
+    if (source === "review") {
+      setPreviousPath(`/review/${babysitterIndex}`);
+    } else if (source === "current-bookings") {
+      setPreviousPath("/current-bookings");
+    } else if (source === "profile") {
+      setPreviousPath(`/profile/${babysitterIndex}`);
+    } else {
+      setPreviousPath(`/review/${babysitterIndex}`);
+    }
 
     const storedMessages = localStorage.getItem(getStorageKey());
     if (storedMessages) {
       setMessages(JSON.parse(storedMessages));
     } else if (selectedBabysitter?.messages) {
-      setMessages(
-        selectedBabysitter.messages.map((msg, index) => ({
+      const formattedMessages = selectedBabysitter.messages.map(
+        (msg, index) => ({
           ...msg,
           id: `init-${index}`,
           timestamp: formatDate(),
-        }))
+        })
       );
+      setMessages(formattedMessages);
     }
-  }, [location, babysitterIndex, selectedBabysitter]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // run only once to avoid infinite loop
 
-  // Save messages to localStorage whenever they change
   useEffect(() => {
     if (messages.length > 0)
       localStorage.setItem(getStorageKey(), JSON.stringify(messages));
   }, [messages, babysitterIndex]);
 
-  // Scroll to bottom whenever messages change
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
 
-  // Handle file selection
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0)
       setSelectedFile(e.target.files[0]);
   };
 
-  // Convert file to base64
   const fileToBase64 = (file: File): Promise<string> => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -139,7 +149,6 @@ const MessageComponent = () => {
 
   return (
     <div className="message-container">
-      {/* Header */}
       <div className="message-header">
         <button className="back-button" onClick={handleBackBtnClick}>
           <ChevronLeftIcon className="icon" />
@@ -152,10 +161,8 @@ const MessageComponent = () => {
         </button>
       </div>
 
-      {/* Timestamp */}
       <div className="timestamp">{formatDate()}</div>
 
-      {/* Messages */}
       <div className="messages-container">
         {messages.map((msg, index) => (
           <div
@@ -168,7 +175,6 @@ const MessageComponent = () => {
               className={`message ${msg.from === "You" ? "sent" : "received"}`}
             >
               {msg.message}
-
               {msg.attachment && (
                 <div className="attachment">
                   {msg.attachment.type.startsWith("image/") ? (
@@ -191,7 +197,6 @@ const MessageComponent = () => {
         <div ref={messagesEndRef} />
       </div>
 
-      {/* File attachment preview */}
       {selectedFile && (
         <div className="file-preview">
           <span className="file-name">{selectedFile.name}</span>
@@ -201,7 +206,6 @@ const MessageComponent = () => {
         </div>
       )}
 
-      {/* Message Input */}
       <div className="message-input">
         <input
           type="file"

@@ -2,14 +2,14 @@ import { Chip, TextField } from "@mui/material";
 import { useState, KeyboardEvent } from "react";
 import "./style.css";
 
-const SearchTag = () => {
+const SearchTag = ({ qualifications, setQualifications }: any) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [tags, setTags] = useState<string[]>([]);
+  // const [tags, setTags] = useState<string[]>([]);
 
   const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter" && searchTerm.trim() !== "") {
-      if (!tags.includes(searchTerm.trim())) {
-        setTags([...tags, searchTerm.trim()]);
+      if (!qualifications.includes(searchTerm.trim())) {
+        setQualifications([...qualifications, searchTerm.trim()]);
       }
       setSearchTerm("");
       e.preventDefault();
@@ -18,7 +18,7 @@ const SearchTag = () => {
 
   const handleDelete = (tagToDelete: string) => {
     console.log({ tagToDelete });
-    setTags(tags.filter((tag) => tag !== tagToDelete));
+    setQualifications(qualifications.filter((tag: string) => tag !== tagToDelete));
   };
 
   return (
@@ -57,7 +57,7 @@ const SearchTag = () => {
         }}
       />
       <div className="chipContainer">
-        {tags.map((tag, index) => (
+        {qualifications.map((tag: string, index: number) => (
           <Chip
             key={`${tag}-${index}`}
             label={tag}

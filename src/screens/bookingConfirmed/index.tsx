@@ -1,12 +1,17 @@
-import { useParams } from "react-router-dom";
-import { BABYSITTER_INFO } from "../../constants/babysitter";
+import { useNavigate, useParams } from "react-router-dom";
+// import { BABYSITTER_INFO } from "../../constants/babysitter";
 import "./style.css";
 import CheckIcon from "@mui/icons-material/Check";
 import { useAppContext } from "../../context/hooks/useAppContext";
 import { Button } from "@mui/material";
+import { getLocalStorageItem } from "../../utils";
+import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
+import CallIcon from "@mui/icons-material/Call";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const BookingConfirmed = () => {
   const { babysitterIndex } = useParams();
+  const BABYSITTER_INFO = getLocalStorageItem("BABYSITTER_INFO");
   const {
     appContextValue: {
       selectedSlot,
@@ -15,20 +20,29 @@ const BookingConfirmed = () => {
       endTime,
       endTimePeriod,
     },
-    appContextUpdater: {
-      setSelectedSlot,
-      setStartTime,
-      setStartTimePeriod,
-      setEndTime,
-      setEndTimePeriod,
-      setSelectedSlotText,
-    },
+    appContextUpdater: { resetState },
   } = useAppContext();
-  const selectedBabysitter = BABYSITTER_INFO.find(
+
+  const selectedBabysitter = (BABYSITTER_INFO as Record<string, any>).find(
     (babysitter) => babysitter.id === babysitterIndex
   );
 
+  const navigate = useNavigate();
   if (!selectedBabysitter) return <></>;
+
+  const handleCancelClick = () => {
+    resetState();
+    navigate("/current-bookings");
+  };
+
+  const handleContinueClick = () => {
+    resetState();
+    navigate("/search");
+  };
+
+  const handleMessageBabySitter = () => {
+    navigate(`/message/${babysitterIndex}?source=review`);
+  };
 
   return (
     <div className="bookingConfirmedContainer">
@@ -43,6 +57,19 @@ const BookingConfirmed = () => {
           <CheckIcon className="checkIcon" />
         </div>
         <div className="confirmedTitle">Sitter Booked</div>
+      </div>
+      <div className="reviewScreenActions">
+        <div className="reviewScreenCallActions">
+          <CallIcon className="reviewScreenIconsWithBg" />
+          <ChatBubbleIcon
+            className="reviewScreenIconsWithBg"
+            onClick={handleMessageBabySitter}
+          />
+        </div>
+        <div className="reviewScreenDistance">
+          {selectedBabysitter.distance} mi. away
+          <LocationOnIcon className="reviewScreenIconsWithBg" />
+        </div>
       </div>
       <hr className="confirmedPageDivider" />
       <div className="confirmedScreenContentContainer">
@@ -88,11 +115,13 @@ const BookingConfirmed = () => {
             textTransform: "capitalize",
             fontSize: "15px",
           }}
+          onClick={handleCancelClick}
         >
           Cancel
         </Button>
         <Button
           variant="contained"
+          onClick={handleContinueClick}
           sx={{
             width: "50%",
             backgroundColor: "#77c3ec",

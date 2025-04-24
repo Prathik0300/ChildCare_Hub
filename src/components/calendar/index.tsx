@@ -12,43 +12,45 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { Dayjs } from "dayjs";
 import { useEffect, useState } from "react";
 
-const PeriodToggle = ({ timePeriod, setTimePeriod }: any) => {
+const PeriodToggle = ({
+  timePeriod,
+  setTimePeriod,
+}: {
+  timePeriod: string;
+  setTimePeriod: (value: string) => void;
+}) => {
   return (
     <ToggleButtonGroup
       value={timePeriod}
       exclusive
-      onChange={(e, newPeriod) => newPeriod && setTimePeriod(newPeriod)}
+      onChange={(e, newPeriod) => {
+        if (newPeriod) setTimePeriod(newPeriod);
+      }}
     >
-      <ToggleButton
-        value="AM"
-        sx={{
-          width: "50px",
-          fontSize: "14px",
-          padding: "0px",
-          backgroundColor: timePeriod === "AM" ? "#77c3ec" : "#f0f0f0",
-          color: timePeriod === "AM" ? "#77c3ec" : "black",
-          "&:hover": {
-            backgroundColor: timePeriod === "AM" ? "#77c3ec" : "#e0e0e0",
-          },
-        }}
-      >
-        AM
-      </ToggleButton>
-      <ToggleButton
-        value="PM"
-        sx={{
-          width: "50px",
-          fontSize: "14px",
-          padding: "0px",
-          backgroundColor: timePeriod === "PM" ? "#77c3ec" : "#f0f0f0",
-          color: timePeriod === "PM" ? "#77c3ec" : "black",
-          "&:hover": {
-            backgroundColor: timePeriod === "PM" ? "#77c3ec" : "#e0e0e0",
-          },
-        }}
-      >
-        PM
-      </ToggleButton>
+      {["AM", "PM"].map((period) => (
+        <ToggleButton
+          key={period}
+          value={period}
+          sx={{
+            width: "50px",
+            height: "35px",
+            fontSize: "13px",
+            fontWeight: "bold",
+            color: timePeriod === period ? "#fff" : "#333",
+            backgroundColor: timePeriod === period ? "#77c3ec" : "#e0e0e0",
+            border: "1px solid #b0b0b0",
+            "&:hover": {
+              backgroundColor: timePeriod === period ? "#5bb4d8" : "#d5d5d5",
+            },
+            "&.Mui-selected": {
+              backgroundColor: "#77c3ec !important",
+              color: "#fff",
+            },
+          }}
+        >
+          {period}
+        </ToggleButton>
+      ))}
     </ToggleButtonGroup>
   );
 };
@@ -76,42 +78,72 @@ const Calendar = ({
     validateTime();
   }, [startTime, startTimePeriod, endTime, endTimePeriod]);
 
-  const handleTimeChange = (e: any, setTime: any, setTimePeriod: any) => {
-    const timeValue = e.target.value; // Example: "14:30"
-    setTime(timeValue);
+  
+  const handleManualTimeChange = (
+    e: any,
+    setTime: (v: string) => void,
+    setPeriod: (v: string) => void
+  ) => {
+    let inputValue = e.target.value.replace(/[^\d:]/g, ""); // Allow only digits & colon
 
-    // Extract hours
-    const [hours] = timeValue.split(":").map(Number);
+    // Enforce max 5 characters total
+    if (inputValue.length > 5) return;
 
-    // Determine AM or PM
-    if (hours >= 12) {
-      setTimePeriod("PM");
-    } else {
-      setTimePeriod("AM");
-    }
+    // Allow incomplete input (e.g., "1:", "12")
+    setTime(inputValue);
+
+    const isValid = /^([01]?[0-9]|2[0-3]):[0-5][0-9]$/.test(inputValue);
+    if (!isValid) return;
+
+    const { formatted, period } = normalizeTo12Hour(inputValue);
+    setTime(formatted);
+    setPeriod(period);
+  };
+
+  const normalizeTo12Hour = (time: string) => {
+    const [rawH, m] = time.split(":").map(Number);
+    if (isNaN(rawH) || isNaN(m)) return { formatted: "", period: "AM" };
+
+    const period = rawH >= 12 ? "PM" : "AM";
+    let h = rawH % 12;
+    if (h === 0) h = 12;
+
+    const formatted = `${h.toString().padStart(2, "0")}:${m
+      .toString()
+      .padStart(2, "0")}`;
+
+    return { formatted, period };
   };
 
   const validateTime = () => {
-    const getTimeIn24 = (time: string, period: string) => {
+    const isValidTimeFormat = (time: string) =>
+      /^([01]?[0-9]|2[0-3]):[0-5][0-9]$/.test(time);
+
+    if (!isValidTimeFormat(startTime) || !isValidTimeFormat(endTime)) {
+      setTimeError("Please enter valid time in HH:MM format");
+      return;
+    }
+
+    const getTimeInMinutes = (time: string, period: string) => {
       let [hours, minutes] = time.split(":").map(Number);
       if (period === "PM" && hours !== 12) hours += 12;
       if (period === "AM" && hours === 12) hours = 0;
-      return hours * 60 + minutes; // Convert to minutes
+      return hours * 60 + minutes;
     };
-    console.log({ startTime, endTime });
-    const start = getTimeIn24(startTime, startTimePeriod);
-    const end = getTimeIn24(endTime, endTimePeriod);
+
+    const start = getTimeInMinutes(startTime, startTimePeriod);
+    const end = getTimeInMinutes(endTime, endTimePeriod);
 
     if (end <= start) {
       setTimeError("End time must be after start time");
-    } else {
-      setTimeError("");
+      return;
     }
+
+    setTimeError(""); // all good
   };
 
   const handleDateChange = (newDate: Dayjs | null) => {
     setSelectedSlot(newDate);
-    console.log("Selected Date:", newDate?.format("YYYY-MM-DD"));
   };
 
   const handleModalClose = () => {
@@ -132,7 +164,15 @@ const Calendar = ({
     onClose();
   };
 
-  console.log({ selectedSlot });
+  const confirmTimeSelection = (timeSlot: any) => {
+    const start = timeSlot.startTime.trim().split(" ");
+    const end = timeSlot.endTime.trim().split(" ");
+    setStartTime(start[0]);
+    setEndTime(end[0]);
+    setStartTimePeriod(start[1]);
+    setEndTimePeriod(end[1]);
+  };
+
   return (
     <Dialog
       open={open}
@@ -150,6 +190,7 @@ const Calendar = ({
         <div className="dialogTitle">Select Date & Time</div>
         <CloseIcon onClick={handleModalClose} />
       </div>
+
       <div className="availabilityCalendar">
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <DateCalendar
@@ -157,24 +198,13 @@ const Calendar = ({
               "& .MuiPickersArrowSwitcher-button": {
                 color: "#77c3ec",
               },
-
               "& .MuiPickersCalendarHeader-switchViewButton": {
                 color: "#77c3ec",
               },
-
               "& .MuiPickersDay-root": {
                 fontWeight: "bold",
                 color: "black",
               },
-
-              "& .MuiYearCalendar-root": {
-                padding: "10px",
-                display: "grid",
-                width: "100%",
-                gridTemplateColumns: "repeat(4, 1fr)",
-                gap: "5px",
-              },
-
               "& .Mui-selected": {
                 backgroundColor: "#77c3ec",
                 color: "black",
@@ -194,56 +224,75 @@ const Calendar = ({
           {selectedBabysitter?.availabilitySlots?.[
             selectedSlot.format("YYYY-DD-MM")
           ]?.timeSlots?.map((timeSlot: any) => (
-            <div className="timeSlotContainer">
+            <div
+              key={timeSlot.startTime + timeSlot.endTime}
+              className="timeSlotContainer"
+              onClick={() => confirmTimeSelection(timeSlot)}
+            >
               {timeSlot.startTime} - {timeSlot.endTime}
             </div>
           ))}
         </div>
       </div>
+
       <div className="selectTimeContainer">
         <div className="startTimeContainer">
           <div>Start Time</div>
-          <TextField
-            type="time"
-            value={startTime}
-            onChange={(e) =>
-              handleTimeChange(e, setStartTime, setStartTimePeriod)
-            }
-            error={!!timeError}
-            sx={{
-              "& input[type=time]::-webkit-calendar-picker-indicator": {
-                display: "none",
-              },
-              textAlign: "center",
-              "& input": { textAlign: "center", padding: "2px" },
-            }}
-          />
-          {/* <PeriodToggle
-            timePeriod={startTimePeriod}
-            setTimePeriod={setStartTimePeriod}
-          /> */}
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            <TextField
+              placeholder="HH:MM"
+              value={startTime}
+              onChange={(e) =>
+                handleManualTimeChange(e, setStartTime, setStartTimePeriod)
+              }
+              inputProps={{
+                maxLength: 5,
+              }}
+              // onChange={(e) => setStartTime(e.target.value)}
+              sx={{
+                width: 100,
+                "& input": {
+                  textAlign: "center",
+                  padding: "6px",
+                },
+              }}
+            />
+            <PeriodToggle
+              timePeriod={startTimePeriod}
+              setTimePeriod={setStartTimePeriod}
+            />
+          </div>
         </div>
+
         <div className="endTimeContainer">
           <div>End Time</div>
-          <TextField
-            type="time"
-            value={endTime}
-            onChange={(e) => handleTimeChange(e, setEndTime, setEndTimePeriod)}
-            error={!!timeError}
-            sx={{
-              "& input[type=time]::-webkit-calendar-picker-indicator": {
-                display: "none",
-              },
-              textAlign: "center",
-              "& input": { textAlign: "center", padding: "2px" },
-            }}
-          />
-          {/* <PeriodToggle
-            timePeriod={endTimePeriod}
-            setTimePeriod={setEndTimePeriod}
-          /> */}
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            <TextField
+              placeholder="HH:MM"
+              value={endTime}
+              onChange={(e) =>
+                handleManualTimeChange(e, setEndTime, setEndTimePeriod)
+              }
+              inputProps={{
+                maxLength: 5,
+              }}
+              // onChange={(e) => setStartTime(e.target.value)}
+              sx={{
+                width: 100,
+                "& input": {
+                  textAlign: "center",
+                  padding: "6px",
+                },
+              }}
+            />
+            <PeriodToggle
+              timePeriod={endTimePeriod}
+              setTimePeriod={setEndTimePeriod}
+            />
+          </div>
         </div>
       </div>
+
       <Button
         variant="contained"
         sx={{

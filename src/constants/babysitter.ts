@@ -1,5 +1,3 @@
-import Profile from "../assets/profile.webp";
-
 export const BABYSITTER_INFO: Record<string, any> = [
   {
     id: "carolyn-becker",
@@ -9,56 +7,1181 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "CB",
     rating: 4.7,
     available: true,
+    gender: "female",
     experience: 5,
     time: 20,
     rate: 17,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
       "2025-29-03": {
         timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "3:00 PM",
-          },
-          {
-            startTime: "6:00 PM",
-            endTime: "10:00 PM",
+            startTime: "06:45 AM",
+            endTime: "08:30 AM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "3:00 PM",
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
           },
           {
-            startTime: "6:00 PM",
-            endTime: "10:00 PM",
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "3:00 PM",
-          },
-          {
-            startTime: "6:00 PM",
-            endTime: "10:00 PM",
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "3:00 PM",
+            startTime: "04:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
           },
           {
-            startTime: "6:00 PM",
+            startTime: "11:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
             endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
           },
         ],
       },
@@ -138,7 +1261,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "Are you available next Friday?",
       },
     ],
-    distance: 15,
+    distance: 100,
+    favorite: false,
   },
   {
     id: "jennifer-lopez",
@@ -146,42 +1270,1171 @@ export const BABYSITTER_INFO: Record<string, any> = [
     lastName: "Lopez",
     fullName: "Jennifer Lopez",
     initials: "JL",
+    gender: "female",
     rating: 4.9,
     available: true,
     experience: 8,
     time: 30,
     rate: 22,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
       "2025-29-03": {
         timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:15 PM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "9:00 PM",
+            startTime: "04:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "09:45 AM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "9:00 PM",
+            startTime: "08:30 AM",
+            endTime: "09:30 AM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "6:00 PM",
+            startTime: "07:00 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
             endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
           },
         ],
       },
@@ -271,7 +2524,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's perfect for our situation. Can we schedule a meet and greet?",
       },
     ],
-    distance: 15,
+    distance: 16,
+    favorite: false,
   },
   {
     id: "sophia-washington",
@@ -281,40 +2535,1169 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "SW",
     rating: 4.5,
     available: false,
+    gender: "female",
     experience: 3,
     time: 15,
     rate: 16,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
       "2025-28-03": {
         timeSlots: [
           {
-            startTime: "4:00 PM",
-            endTime: "10:00 PM",
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "2:00 PM",
+            startTime: "06:00 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:15 PM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "6:00 PM",
+            startTime: "07:45 AM",
+            endTime: "10:45 AM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "5:00 PM",
+            startTime: "02:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
             endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "05:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "05:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:45 PM",
           },
         ],
       },
@@ -396,7 +3779,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That sounds wonderful! She would love that.",
       },
     ],
-    distance: 72,
+    distance: 92,
+    favorite: false,
   },
   {
     id: "madison-chen",
@@ -405,45 +3789,1198 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Madison Chen",
     initials: "MC",
     rating: 4.3,
+    gender: "female",
     available: true,
     experience: 6,
     time: 25,
     rate: 19,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "04:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
       "2025-27-03": {
         timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "11:00 PM",
+            startTime: "10:45 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:15 PM",
           },
         ],
       },
       "2025-28-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "11:00 PM",
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
           },
         ],
       },
       "2025-03-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "2:00 PM",
+            startTime: "02:30 PM",
+            endTime: "06:15 PM",
           },
           {
-            startTime: "4:00 PM",
-            endTime: "8:00 PM",
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
           {
             startTime: "10:00 AM",
-            endTime: "8:00 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:45 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
@@ -540,7 +5077,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That sounds perfect! He would be thrilled.",
       },
     ],
-    distance: 98,
+    distance: 99,
+    favorite: false,
   },
   {
     id: "taylor-rodriguez",
@@ -549,45 +5087,1146 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Taylor Rodriguez",
     initials: "TR",
     rating: 4.8,
+    gender: "female",
     available: true,
     experience: 10,
     time: 40,
     rate: 25,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     availabilitySlots: {
-      "2025-25-03": {
+      "2025-23-02": {
         timeSlots: [
           {
-            startTime: "2:00 PM",
+            startTime: "11:00 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
             endTime: "10:00 PM",
           },
         ],
       },
-      "2025-26-03": {
-        timeAvailability: [
+      "2025-19-03": {
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "1:00 PM",
+            startTime: "09:30 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:45 PM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "7:00 PM",
+            startTime: "08:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
           },
         ],
       },
       "2025-06-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "3:00 PM",
+            startTime: "02:15 PM",
+            endTime: "04:45 PM",
           },
           {
-            startTime: "5:00 PM",
-            endTime: "9:00 PM",
+            startTime: "11:00 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:15 PM",
           },
         ],
       },
@@ -677,7 +6316,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That's exactly what we're looking for. When can we meet?",
       },
     ],
-    distance: 9,
+    distance: 49,
+    favorite: false,
   },
   {
     id: "amy-patel",
@@ -686,41 +6326,1174 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Amy Patel",
     initials: "AP",
     rating: 4.6,
+    gender: "female",
     available: true,
     experience: 4,
     time: 18,
     rate: 18,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
       "2025-29-03": {
         timeSlots: [
           {
-            startTime: "4:00 PM",
-            endTime: "10:00 PM",
+            startTime: "05:30 PM",
+            endTime: "08:45 PM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "11:00 AM",
-            endTime: "8:00 PM",
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "10:00 PM",
+            startTime: "03:00 PM",
+            endTime: "05:30 PM",
           },
         ],
       },
       "2025-03-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "4:00 PM",
+            startTime: "06:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:00 AM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
             endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:15 PM",
           },
         ],
       },
@@ -803,7 +7576,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds like a great approach. They currently only eat pasta and chicken nuggets.",
       },
     ],
-    distance: 94,
+    distance: 21,
+    favorite: false,
   },
   {
     id: "olivia-smith",
@@ -813,40 +7587,1181 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "OS",
     rating: 4.2,
     available: false,
+    gender: "female",
     experience: 2,
     time: 10,
     rate: 15,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
       "2025-27-03": {
         timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "6:00 PM",
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "5:00 PM",
-            endTime: "9:00 PM",
+            startTime: "05:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:15 AM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "1:00 PM",
-            endTime: "9:00 PM",
+            startTime: "08:15 AM",
+            endTime: "10:15 AM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "10:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:45 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
@@ -928,7 +8843,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That sounds perfect. What materials would you need?",
       },
     ],
-    distance: 41,
+    distance: 17,
+    favorite: false,
   },
   {
     id: "gabrielle-jackson",
@@ -938,44 +8854,1193 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "GJ",
     rating: 4.9,
     available: true,
+    gender: "female",
     experience: 12,
     time: 48,
     rate: 28,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
       "2025-28-03": {
         timeSlots: [
           {
-            startTime: "6:00 AM",
-            endTime: "12:00 PM",
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
           },
           {
-            startTime: "2:00 PM",
-            endTime: "8:00 PM",
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "6:00 AM",
-            endTime: "8:00 PM",
+            startTime: "08:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:15 PM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "6:00 AM",
-            endTime: "2:00 PM",
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:45 AM",
           },
         ],
       },
       "2025-06-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "2:00 PM",
-            endTime: "8:00 PM",
+            startTime: "05:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:15 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:00 AM",
           },
         ],
       },
@@ -1073,7 +10138,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That's exactly what we need. Our kids are 2, 5, and 8.",
       },
     ],
-    distance: 53,
+    distance: 39,
+    favorite: false,
   },
   {
     id: "natalie-wong",
@@ -1082,41 +10148,1202 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Natalie Wong",
     initials: "NW",
     rating: 4.4,
+    gender: "female",
     available: true,
     experience: 7,
     time: 28,
     rate: 21,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "04:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
       "2025-26-03": {
         timeSlots: [
           {
-            startTime: "5:00 PM",
-            endTime: "9:00 PM",
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
       "2025-27-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "5:00 PM",
-            endTime: "9:00 PM",
+            startTime: "06:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "02:30 PM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "9:00 PM",
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:00 AM",
           },
         ],
       },
       "2025-07-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "3:00 PM",
+            startTime: "06:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "05:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:15 PM",
           },
         ],
       },
@@ -1206,7 +11433,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds great! We definitely need help with that energy management.",
       },
     ],
-    distance: 80,
+    distance: 3,
+    favorite: false,
   },
   {
     id: "zoe-martinez",
@@ -1217,43 +11445,1212 @@ export const BABYSITTER_INFO: Record<string, any> = [
     rating: 4.5,
     available: true,
     experience: 5,
+    gender: "female",
     time: 22,
     rate: 19,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
       "2025-26-03": {
         timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "8:00 PM",
+            startTime: "09:15 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
           },
         ],
       },
       "2025-28-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "2:00 PM",
+            startTime: "06:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:00 PM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "12:00 PM",
+            startTime: "06:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:45 PM",
           },
           {
-            startTime: "4:00 PM",
-            endTime: "9:00 PM",
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-08-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "07:45 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:45 PM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "8:00 PM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "04:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:00 AM",
           },
         ],
       },
@@ -1344,7 +12741,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "The scavenger hunt sounds perfect for our 6-year-old. Would you bring materials?",
       },
     ],
-    distance: 45,
+    distance: 61,
+    favorite: false,
   },
   {
     id: "rachel-kim",
@@ -1352,42 +12750,1151 @@ export const BABYSITTER_INFO: Record<string, any> = [
     lastName: "Kim",
     fullName: "Rachel Kim",
     initials: "RK",
+    gender: "female",
     rating: 4.8,
     available: true,
     experience: 6,
     time: 24,
     rate: 20,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:45 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
       "2025-29-03": {
         timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            startTime: "08:30 AM",
+            endTime: "12:30 PM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "04:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "02:00 PM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "07:30 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
       "2025-03-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "9:00 PM",
+            startTime: "04:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "07:00 AM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:15 PM",
           },
         ],
       },
@@ -1462,7 +13969,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. When could you meet with us for an initial assessment?",
       },
     ],
-    distance: 4,
+    distance: 33,
+    favorite: false,
   },
   {
     id: "isabelle-grant",
@@ -1471,41 +13979,1206 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Isabelle Grant",
     initials: "IG",
     rating: 4.6,
+    gender: "female",
     available: false,
     experience: 9,
     time: 35,
     rate: 23,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "07:00 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
       "2025-27-03": {
         timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "3:00 PM",
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
           },
         ],
       },
       "2025-28-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "3:00 PM",
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "03:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:15 PM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "08:00 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "6:00 PM",
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "04:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
           },
         ],
       },
@@ -1596,7 +15269,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds excellent. Our daughter is 3, would you have specific recommendations for her age?",
       },
     ],
-    distance: 93,
+    distance: 22,
+    favorite: false,
   },
   {
     id: "maya-jackson",
@@ -1605,41 +15279,1170 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Maya Jackson",
     initials: "MJ",
     rating: 4.3,
+    gender: "female",
     available: true,
     experience: 4,
     time: 16,
     rate: 18,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
       "2025-26-03": {
         timeSlots: [
           {
-            startTime: "1:00 PM",
-            endTime: "9:00 PM",
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
           },
         ],
       },
       "2025-27-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "1:00 PM",
-            endTime: "9:00 PM",
+            startTime: "06:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:30 PM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "4:00 PM",
+            endTime: "04:30 PM",
           },
         ],
       },
       "2025-06-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "05:15 PM",
+          },
           {
             startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "11:00 AM",
           },
         ],
       },
@@ -1722,7 +16525,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds like a healthy approach. What kind of tech activities would be appropriate for a 7-year-old?",
       },
     ],
-    distance: 18,
+    distance: 97,
+    favorite: false,
   },
   {
     id: "daria-petrov",
@@ -1731,41 +16535,1198 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Daria Petrov",
     initials: "DP",
     rating: 4.9,
+    gender: "female",
     available: true,
     experience: 11,
     time: 44,
     rate: 26,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
       "2025-25-03": {
         timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "08:15 AM",
+            endTime: "10:45 AM",
           },
         ],
       },
       "2025-26-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "04:45 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:15 PM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "9:00 PM",
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
       "2025-07-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:15 PM",
+          },
           {
             startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
@@ -1872,7 +17833,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. Do you require any special equipment for these activities?",
       },
     ],
-    distance: 83,
+    distance: 46,
+    favorite: false,
   },
   {
     id: "leila-hassan",
@@ -1884,38 +17846,1215 @@ export const BABYSITTER_INFO: Record<string, any> = [
     available: true,
     experience: 8,
     time: 32,
+    gender: "female",
     rate: 22,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "04:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
       "2025-30-03": {
         timeSlots: [
           {
-            startTime: "2:00 PM",
-            endTime: "10:00 PM",
+            startTime: "08:30 AM",
+            endTime: "10:15 AM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "2:00 PM",
-            endTime: "10:00 PM",
+            startTime: "11:45 AM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-03-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "07:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
           },
         ],
       },
       "2025-08-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "06:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:15 PM",
           },
         ],
       },
@@ -2014,7 +19153,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's exactly what we're looking for. Do you speak any languages other than English?",
       },
     ],
-    distance: 70,
+    distance: 28,
+    favorite: false,
   },
   {
     id: "elena-vasquez",
@@ -2024,40 +19164,1229 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "EV",
     rating: 4.7,
     available: true,
+    gender: "female",
     experience: 7,
     time: 28,
     rate: 22,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
       "2025-28-03": {
         timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            startTime: "09:15 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "04:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-03-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "2:00 PM",
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
             endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:45 PM",
           },
         ],
       },
@@ -2140,7 +20469,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. Would you be available for a video chat to discuss further?",
       },
     ],
-    distance: 40,
+    distance: 3,
+    favorite: false,
   },
   {
     id: "sarah-mitchell",
@@ -2150,40 +20480,1201 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "SM",
     rating: 4.8,
     available: true,
+    gender: "female",
     experience: 9,
     time: 36,
     rate: 24,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
       "2025-27-03": {
         timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "05:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
           },
         ],
       },
       "2025-28-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "07:00 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:00 PM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "09:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "10:15 AM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
           {
             startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:45 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
           },
         ],
       },
@@ -2274,7 +21765,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "An overnight session sounds like exactly what we need. When are you available?",
       },
     ],
-    distance: 86,
+    distance: 51,
+    favorite: false,
   },
   {
     id: "mikayla-jefferson",
@@ -2283,41 +21775,1174 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Mikayla Jefferson",
     initials: "MJ",
     rating: 4.5,
+    gender: "female",
     available: true,
     experience: 5,
     time: 20,
     rate: 19,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
       "2025-29-03": {
         timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "11:00 PM",
+            startTime: "09:30 AM",
+            endTime: "10:15 AM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "11:00 PM",
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "2:00 PM",
+            startTime: "07:00 PM",
             endTime: "10:00 PM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
           {
             startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:30 PM",
           },
         ],
       },
@@ -2400,7 +23025,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "He loves dinosaurs and robots. Would you have specific book recommendations?",
       },
     ],
-    distance: 57,
+    distance: 2,
+    favorite: false,
   },
   {
     id: "jasmine-nguyen",
@@ -2409,41 +23035,1202 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Jasmine Nguyen",
     initials: "JN",
     rating: 4.6,
+    gender: "female",
     available: true,
     experience: 8,
     time: 32,
     rate: 23,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
       "2025-26-03": {
         timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "08:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:45 PM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "01:45 PM",
+          },
           {
             startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:15 PM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "03:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:30 PM",
           },
         ],
       },
       "2025-07-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "04:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "07:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
           },
         ],
       },
@@ -2534,7 +24321,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's exactly what we've been looking for. She's particularly sensitive to sounds and certain textures.",
       },
     ],
-    distance: 33,
+    distance: 50,
+    favorite: false,
   },
   {
     id: "fiona-campbell",
@@ -2545,39 +24333,1232 @@ export const BABYSITTER_INFO: Record<string, any> = [
     rating: 4.7,
     available: true,
     experience: 10,
+    gender: "female",
     time: 40,
     rate: 25,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
     availabilitySlots: {
-      "2025-25-03": {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
         timeSlots: [
           {
             startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
           },
         ],
       },
       "2025-26-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "3:00 PM",
+            startTime: "11:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:30 PM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:00 PM",
           },
         ],
       },
       "2025-06-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:30 PM",
+          },
           {
             startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "05:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:15 PM",
           },
         ],
       },
@@ -2676,7 +25657,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's wonderful to hear. Would you have suggestions for allergen-free birthday treats?",
       },
     ],
-    distance: 43,
+    distance: 80,
+    favorite: false,
   },
   {
     id: "emily-rodriguez",
@@ -2686,40 +25668,1237 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "ER",
     rating: 4.9,
     available: true,
+    gender: "female",
     experience: 8,
     time: 30,
     rate: 22,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
       "2025-24-03": {
         timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "09:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:30 PM",
           },
         ],
       },
       "2025-27-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:45 PM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "08:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:00 PM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "04:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:45 PM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
           },
         ],
       },
@@ -2818,7 +26997,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. Does she need any special equipment or instruments?",
       },
     ],
-    distance: 30,
+    distance: 50,
+    favorite: false,
   },
   {
     id: "sophia-patel",
@@ -2828,40 +27008,1185 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "SP",
     rating: 4.8,
     available: true,
+    gender: "female",
     experience: 6,
     time: 25,
     rate: 20,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
     availabilitySlots: {
-      "2025-23-03": {
+      "2025-23-02": {
         timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "9:00 PM",
+            startTime: "03:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "08:00 PM",
           },
         ],
       },
-      "2025-25-03": {
-        timeAvailability: [
+      "2025-24-02": {
+        timeSlots: [
           {
-            startTime: "4:00 PM",
+            startTime: "03:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "04:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
             endTime: "10:00 PM",
           },
         ],
       },
-      "2025-28-03": {
-        timeAvailability: [
+      "2025-22-03": {
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "06:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "07:00 AM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "03:45 PM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "2:00 PM",
-            endTime: "8:00 PM",
+            startTime: "06:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:45 AM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "02:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "06:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
           },
         ],
       },
@@ -2960,7 +28285,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds great! What kind of experiments would be appropriate for a 7-year-old?",
       },
     ],
-    distance: 99,
+    distance: 39,
+    favorite: false,
   },
   {
     id: "olivia-jackson",
@@ -2970,40 +28296,1237 @@ export const BABYSITTER_INFO: Record<string, any> = [
     initials: "OJ",
     rating: 4.6,
     available: true,
+    gender: "female",
     experience: 12,
     time: 35,
     rate: 28,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
       "2025-24-03": {
         timeSlots: [
           {
-            startTime: "1:00 PM",
-            endTime: "9:00 PM",
+            startTime: "08:30 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
       "2025-26-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "02:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:15 AM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
           },
         ],
       },
       "2025-07-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
           },
         ],
       },
@@ -3102,7 +29625,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's a creative approach! Would you bring art supplies or should we have some ready?",
       },
     ],
-    distance: 11,
+    distance: 66,
+    favorite: false,
   },
   {
     id: "maya-chen",
@@ -3113,39 +29637,1204 @@ export const BABYSITTER_INFO: Record<string, any> = [
     rating: 4.9,
     available: true,
     experience: 9,
+    gender: "female",
     time: 32,
     rate: 26,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
       "2025-25-03": {
         timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "05:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-28-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "3:00 PM",
+            startTime: "08:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:00 AM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "03:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:00 PM",
           },
         ],
       },
       "2025-08-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:15 PM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "07:45 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:00 PM",
           },
         ],
       },
@@ -3244,7 +30933,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's exactly what we need. Would you be able to share some of these exercises with us to continue at home?",
       },
     ],
-    distance: 3,
+    distance: 70,
+    favorite: false,
   },
   {
     id: "zara-ahmad",
@@ -3255,39 +30945,1188 @@ export const BABYSITTER_INFO: Record<string, any> = [
     rating: 4.8,
     available: true,
     experience: 7,
+    gender: "female",
     time: 28,
     rate: 24,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "03:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
       "2025-23-03": {
         timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            startTime: "05:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-27-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "06:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "04:45 PM",
+            endTime: "10:45 PM",
           },
         ],
       },
       "2025-30-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "07:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:45 PM",
           },
         ],
       },
       "2025-03-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "08:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "11:00 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:45 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:00 PM",
           },
         ],
       },
@@ -3386,7 +32225,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect! What age is appropriate to start these kinds of activities?",
       },
     ],
-    distance: 50,
+    distance: 42,
+    favorite: false,
   },
   {
     id: "natalie-winters",
@@ -3398,38 +32238,1191 @@ export const BABYSITTER_INFO: Record<string, any> = [
     available: true,
     experience: 11,
     time: 38,
+    gender: "female",
     rate: 27,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
     availabilitySlots: {
-      "2025-24-03": {
+      "2025-23-02": {
         timeSlots: [
           {
-            startTime: "2:00 PM",
+            startTime: "12:00 PM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
             endTime: "10:00 PM",
           },
         ],
       },
-      "2025-26-03": {
-        timeAvailability: [
+      "2025-12-03": {
+        timeSlots: [
           {
-            startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "10:00 AM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:30 PM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "9:00 PM",
+            startTime: "03:30 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "11:15 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "12:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "02:30 PM",
           },
         ],
       },
@@ -3528,7 +33521,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds promising. How long does it usually take to see improvement with these techniques?",
       },
     ],
-    distance: 3,
+    distance: 68,
+    favorite: false,
   },
   {
     id: "jasmine-barnes",
@@ -3540,38 +33534,1235 @@ export const BABYSITTER_INFO: Record<string, any> = [
     available: true,
     experience: 9,
     time: 30,
+    gender: "female",
     rate: 23,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
       "2025-23-03": {
         timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "06:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:45 AM",
           },
         ],
       },
       "2025-25-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            startTime: "10:15 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:45 AM",
+            endTime: "11:00 AM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "12:00 PM",
-            endTime: "8:00 PM",
+            startTime: "06:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "05:30 PM",
           },
         ],
       },
       "2025-07-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "09:00 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:30 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "07:45 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "08:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "11:30 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:45 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "04:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:30 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "07:30 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "02:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:45 PM",
           },
         ],
       },
@@ -3670,7 +34861,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's great to hear! Do you bring supplies for these activities or should we prepare anything?",
       },
     ],
-    distance: 2,
+    distance: 84,
+    favorite: false,
   },
   {
     id: "lucia-morales",
@@ -3682,38 +34874,1175 @@ export const BABYSITTER_INFO: Record<string, any> = [
     available: true,
     experience: 7,
     time: 33,
+    gender: "female",
     rate: 24,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "04:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
       "2025-26-03": {
         timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "09:45 AM",
           },
         ],
       },
       "2025-28-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "1:00 PM",
-            endTime: "9:00 PM",
+            startTime: "06:45 AM",
+            endTime: "08:00 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:00 PM",
           },
         ],
       },
       "2025-02-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "11:30 AM",
           },
         ],
       },
       "2025-05-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "8:00 AM",
-            endTime: "4:00 PM",
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "02:00 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "03:45 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:00 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:00 AM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "11:45 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "08:15 AM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:30 PM",
+          },
+          {
+            startTime: "08:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "07:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "07:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "01:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "10:15 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:45 PM",
           },
         ],
       },
@@ -3812,7 +36141,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's helpful! Do you have experience with Korean specifically or strategies for any language?",
       },
     ],
-    distance: 92,
+    distance: 65,
+    favorite: false,
   },
   {
     id: "amara-okafor",
@@ -3824,38 +36154,1195 @@ export const BABYSITTER_INFO: Record<string, any> = [
     available: true,
     experience: 8,
     time: 29,
+    gender: "male",
     rate: 24,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "07:15 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "04:15 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
       "2025-24-03": {
         timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "3:00 PM",
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-25-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "06:00 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:15 AM",
           },
         ],
       },
       "2025-27-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            startTime: "05:00 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-29-03": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-31-03": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:30 PM",
           },
         ],
       },
       "2025-01-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "9:00 AM",
-            endTime: "5:00 PM",
+            startTime: "08:45 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:30 PM",
           },
         ],
       },
       "2025-04-04": {
-        timeAvailability: [
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-06-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "09:30 AM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:00 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "11:15 AM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "06:30 AM",
+            endTime: "07:15 AM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "01:00 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "04:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "08:45 AM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "02:15 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "07:00 AM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:30 PM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "12:30 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "08:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "07:15 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "01:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "12:15 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "05:15 PM",
+            endTime: "07:00 PM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "10:30 AM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:30 PM",
+          },
           {
             startTime: "10:00 AM",
-            endTime: "6:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:00 PM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "08:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:30 AM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "10:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "07:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:30 AM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "07:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:30 PM",
           },
         ],
       },
@@ -3954,7 +37441,8 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds wonderful! Do you have experience with cultures from all regions of the world?",
       },
     ],
-    distance: 61,
+    distance: 73,
+    favorite: false,
   },
   {
     id: "isabel-rivera",
@@ -3963,41 +37451,1242 @@ export const BABYSITTER_INFO: Record<string, any> = [
     fullName: "Isabel Rivera",
     initials: "IR",
     rating: 4.7,
+    gender: "female",
     available: true,
     experience: 10,
     time: 34,
     rate: 26,
-    profileImage: Profile,
+    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
     availabilitySlots: {
+      "2025-23-02": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "11:00 AM",
+          },
+        ],
+      },
+      "2025-24-02": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "01:30 PM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-25-02": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-26-02": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
+          },
+        ],
+      },
+      "2025-27-02": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-28-02": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "08:15 AM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:15 PM",
+          },
+        ],
+      },
+      "2025-01-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-02-03": {
+        timeSlots: [
+          {
+            startTime: "05:30 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-03-03": {
+        timeSlots: [
+          {
+            startTime: "07:45 AM",
+            endTime: "08:00 AM",
+          },
+        ],
+      },
+      "2025-04-03": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-05-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-06-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 AM",
+            endTime: "07:45 AM",
+          },
+          {
+            startTime: "10:45 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-07-03": {
+        timeSlots: [
+          {
+            startTime: "09:30 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
+      "2025-08-03": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-09-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "10:45 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-10-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-11-03": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-12-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-13-03": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-14-03": {
+        timeSlots: [
+          {
+            startTime: "06:00 PM",
+            endTime: "08:15 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-15-03": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "04:00 PM",
+            endTime: "07:15 PM",
+          },
+        ],
+      },
+      "2025-16-03": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-17-03": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-18-03": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-19-03": {
+        timeSlots: [
+          {
+            startTime: "10:45 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-20-03": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-21-03": {
+        timeSlots: [
+          {
+            startTime: "04:30 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "08:45 PM",
+          },
+        ],
+      },
+      "2025-22-03": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-23-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "06:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-24-03": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "06:45 AM",
+            endTime: "11:30 AM",
+          },
+        ],
+      },
       "2025-25-03": {
         timeSlots: [
           {
-            startTime: "3:00 PM",
-            endTime: "9:00 PM",
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-26-03": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "10:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-27-03": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "11:45 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-28-03": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "07:30 PM",
           },
         ],
       },
       "2025-29-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "7:00 AM",
-            endTime: "3:00 PM",
+            startTime: "06:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-30-03": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:15 PM",
           },
         ],
       },
       "2025-31-03": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "11:00 AM",
-            endTime: "7:00 PM",
+            startTime: "08:00 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-01-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-02-04": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "07:30 AM",
+          },
+        ],
+      },
+      "2025-03-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-04-04": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-05-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "05:45 PM",
           },
         ],
       },
       "2025-06-04": {
-        timeAvailability: [
+        timeSlots: [
           {
-            startTime: "2:00 PM",
-            endTime: "8:00 PM",
+            startTime: "03:30 PM",
+            endTime: "04:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-07-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "07:15 AM",
+          },
+          {
+            startTime: "08:30 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-08-04": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:00 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-09-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-10-04": {
+        timeSlots: [
+          {
+            startTime: "08:30 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:30 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-11-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "09:45 AM",
+          },
+        ],
+      },
+      "2025-12-04": {
+        timeSlots: [
+          {
+            startTime: "12:45 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-13-04": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "03:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-14-04": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-15-04": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-16-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-17-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "10:00 PM",
+          },
+        ],
+      },
+      "2025-18-04": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "06:00 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-19-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "10:15 PM",
+          },
+        ],
+      },
+      "2025-20-04": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "04:15 PM",
+          },
+        ],
+      },
+      "2025-21-04": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-22-04": {
+        timeSlots: [
+          {
+            startTime: "05:45 PM",
+            endTime: "07:45 PM",
+          },
+        ],
+      },
+      "2025-23-04": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:30 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "06:30 PM",
+          },
+        ],
+      },
+      "2025-24-04": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:45 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "09:00 AM",
+          },
+        ],
+      },
+      "2025-25-04": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-26-04": {
+        timeSlots: [
+          {
+            startTime: "06:30 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "09:15 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-27-04": {
+        timeSlots: [
+          {
+            startTime: "07:45 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-28-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-29-04": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:00 PM",
+          },
+        ],
+      },
+      "2025-30-04": {
+        timeSlots: [
+          {
+            startTime: "08:45 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "10:15 AM",
+          },
+        ],
+      },
+      "2025-01-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-02-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-03-05": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "11:45 AM",
+          },
+        ],
+      },
+      "2025-04-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "06:45 PM",
+          },
+        ],
+      },
+      "2025-05-05": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "02:30 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-06-05": {
+        timeSlots: [
+          {
+            startTime: "11:15 AM",
+            endTime: "12:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "03:30 PM",
+          },
+        ],
+      },
+      "2025-07-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "03:30 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "04:45 PM",
+          },
+        ],
+      },
+      "2025-08-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "05:00 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-09-05": {
+        timeSlots: [
+          {
+            startTime: "04:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-10-05": {
+        timeSlots: [
+          {
+            startTime: "01:15 PM",
+            endTime: "02:15 PM",
+          },
+          {
+            startTime: "06:00 AM",
+            endTime: "10:45 AM",
+          },
+        ],
+      },
+      "2025-11-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "09:00 PM",
+          },
+        ],
+      },
+      "2025-12-05": {
+        timeSlots: [
+          {
+            startTime: "09:45 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-13-05": {
+        timeSlots: [
+          {
+            startTime: "08:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:00 AM",
+            endTime: "03:00 PM",
+          },
+        ],
+      },
+      "2025-14-05": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-15-05": {
+        timeSlots: [
+          {
+            startTime: "06:30 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-16-05": {
+        timeSlots: [
+          {
+            startTime: "07:00 AM",
+            endTime: "10:00 AM",
+          },
+          {
+            startTime: "11:15 AM",
+            endTime: "03:15 PM",
+          },
+        ],
+      },
+      "2025-17-05": {
+        timeSlots: [
+          {
+            startTime: "08:15 PM",
+            endTime: "09:15 PM",
+          },
+        ],
+      },
+      "2025-18-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "10:30 AM",
+          },
+        ],
+      },
+      "2025-19-05": {
+        timeSlots: [
+          {
+            startTime: "08:45 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-20-05": {
+        timeSlots: [
+          {
+            startTime: "02:30 PM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "05:45 PM",
+            endTime: "08:15 PM",
+          },
+        ],
+      },
+      "2025-21-05": {
+        timeSlots: [
+          {
+            startTime: "05:15 PM",
+            endTime: "09:15 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:15 PM",
+          },
+        ],
+      },
+      "2025-22-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "03:15 PM",
+          },
+          {
+            startTime: "12:30 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-23-05": {
+        timeSlots: [
+          {
+            startTime: "01:30 PM",
+            endTime: "06:45 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:45 PM",
+          },
+        ],
+      },
+      "2025-24-05": {
+        timeSlots: [
+          {
+            startTime: "07:30 AM",
+            endTime: "09:15 AM",
+          },
+        ],
+      },
+      "2025-25-05": {
+        timeSlots: [
+          {
+            startTime: "04:45 PM",
+            endTime: "07:45 PM",
+          },
+          {
+            startTime: "09:45 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-26-05": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-27-05": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "08:45 PM",
+          },
+          {
+            startTime: "10:15 AM",
+            endTime: "02:45 PM",
+          },
+        ],
+      },
+      "2025-28-05": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "07:30 PM",
+          },
+        ],
+      },
+      "2025-29-05": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "02:45 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "05:15 PM",
+          },
+        ],
+      },
+      "2025-30-05": {
+        timeSlots: [
+          {
+            startTime: "06:45 AM",
+            endTime: "12:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "02:30 PM",
+          },
+        ],
+      },
+      "2025-31-05": {
+        timeSlots: [
+          {
+            startTime: "10:30 AM",
+            endTime: "03:45 PM",
+          },
+        ],
+      },
+      "2025-01-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:00 PM",
+          },
+        ],
+      },
+      "2025-02-06": {
+        timeSlots: [
+          {
+            startTime: "01:45 PM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "06:45 PM",
+            endTime: "08:00 PM",
+          },
+        ],
+      },
+      "2025-03-06": {
+        timeSlots: [
+          {
+            startTime: "03:45 PM",
+            endTime: "07:00 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-04-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 AM",
+            endTime: "08:45 AM",
+          },
+        ],
+      },
+      "2025-05-06": {
+        timeSlots: [
+          {
+            startTime: "10:00 AM",
+            endTime: "03:00 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-06-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "10:00 AM",
+          },
+        ],
+      },
+      "2025-07-06": {
+        timeSlots: [
+          {
+            startTime: "04:00 PM",
+            endTime: "09:00 PM",
+          },
+          {
+            startTime: "12:15 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-08-06": {
+        timeSlots: [
+          {
+            startTime: "01:00 PM",
+            endTime: "05:15 PM",
+          },
+          {
+            startTime: "05:30 PM",
+            endTime: "06:15 PM",
+          },
+        ],
+      },
+      "2025-09-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:00 PM",
+            endTime: "02:00 PM",
+          },
+        ],
+      },
+      "2025-10-06": {
+        timeSlots: [
+          {
+            startTime: "03:15 PM",
+            endTime: "08:30 PM",
+          },
+        ],
+      },
+      "2025-11-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "09:45 PM",
+          },
+        ],
+      },
+      "2025-12-06": {
+        timeSlots: [
+          {
+            startTime: "03:00 PM",
+            endTime: "07:30 PM",
+          },
+          {
+            startTime: "07:45 AM",
+            endTime: "08:30 AM",
+          },
+        ],
+      },
+      "2025-13-06": {
+        timeSlots: [
+          {
+            startTime: "09:00 AM",
+            endTime: "12:45 PM",
+          },
+        ],
+      },
+      "2025-14-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:45 PM",
+          },
+          {
+            startTime: "12:45 PM",
+            endTime: "04:30 PM",
+          },
+        ],
+      },
+      "2025-15-06": {
+        timeSlots: [
+          {
+            startTime: "07:15 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "11:30 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-16-06": {
+        timeSlots: [
+          {
+            startTime: "11:30 AM",
+            endTime: "12:30 PM",
+          },
+        ],
+      },
+      "2025-17-06": {
+        timeSlots: [
+          {
+            startTime: "09:15 AM",
+            endTime: "12:15 PM",
+          },
+        ],
+      },
+      "2025-18-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "06:30 PM",
+          },
+          {
+            startTime: "09:00 AM",
+            endTime: "01:45 PM",
+          },
+        ],
+      },
+      "2025-19-06": {
+        timeSlots: [
+          {
+            startTime: "02:45 PM",
+            endTime: "05:30 PM",
+          },
+          {
+            startTime: "07:15 AM",
+            endTime: "01:00 PM",
+          },
+        ],
+      },
+      "2025-20-06": {
+        timeSlots: [
+          {
+            startTime: "05:00 PM",
+            endTime: "10:15 PM",
+          },
+          {
+            startTime: "10:30 AM",
+            endTime: "01:30 PM",
+          },
+        ],
+      },
+      "2025-21-06": {
+        timeSlots: [
+          {
+            startTime: "03:30 PM",
+            endTime: "07:15 PM",
+          },
+          {
+            startTime: "08:15 PM",
+            endTime: "10:30 PM",
+          },
+        ],
+      },
+      "2025-22-06": {
+        timeSlots: [
+          {
+            startTime: "06:15 PM",
+            endTime: "09:30 PM",
+          },
+        ],
+      },
+      "2025-23-06": {
+        timeSlots: [
+          {
+            startTime: "02:00 PM",
+            endTime: "08:30 PM",
+          },
+          {
+            startTime: "10:00 AM",
+            endTime: "12:00 PM",
           },
         ],
       },
@@ -4096,6 +38785,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's reassuring. What types of performing arts do you typically incorporate?",
       },
     ],
-    distance: 3,
+    distance: 49,
+    favorite: false,
   },
 ];

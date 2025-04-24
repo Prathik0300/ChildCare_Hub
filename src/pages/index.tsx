@@ -6,12 +6,13 @@ import AppContextProvider from "../context/appContext";
 import ReviewScreen from "../screens/review";
 import BookingConfirmed from "../screens/bookingConfirmed";
 import Message from "../screens/message";
+import CurrentBookings from "../screens/currentBookings";
 
 export default function AppRoutes() {
   return (
     <AppContextProvider>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Search />} />
         <Route index path="/search" element={<Search />} />
         <Route path="/profile/:babysitterIndex" element={<Profile />} />
         <Route path="review/:babysitterIndex" element={<ReviewScreen />} />
@@ -19,10 +20,8 @@ export default function AppRoutes() {
           path="confirmed/:babysitterIndex"
           element={<BookingConfirmed />}
         />
-        <Route
-          path="message/:babysitterIndex"
-          element={<Message />}
-        />
+        <Route path="/current-bookings" element={<CurrentBookings />} />
+        <Route path="message/:babysitterIndex" element={<Message />} />
       </Routes>
     </AppContextProvider>
   );

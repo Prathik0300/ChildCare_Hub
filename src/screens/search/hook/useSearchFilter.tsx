@@ -2,6 +2,7 @@ import { useState } from "react";
 import SliderFilter from "../../../components/filter/slider";
 import SearchTag from "../../../components/filter/searchTag";
 import { useAppContext } from "../../../context/hooks/useAppContext";
+import SortButton from "../../../components/filter/sort";
 
 export const useSearchFilter = () => {
   const {
@@ -32,36 +33,44 @@ export const useSearchFilter = () => {
           maxValue={50}
           minValueLabel={"$0"}
           maxValueLabel={"$50"}
-          filterValue={cost}
+          filterValue={cost ? cost : 20}
           setFilter={setCost}
         />
       );
     }
     if (idx === 1) {
       return (
-        <SliderFilter
-          minValue={0}
-          maxValue={45}
-          minValueLabel={"0 mi"}
-          maxValueLabel={"45 mi"}
-          filterValue={distance}
-          setFilter={setDistance}
-        />
+        <SortButton filter={distance} setFilter={setDistance} />
+        // <SliderFilter
+        //   minValue={0}
+        //   maxValue={45}
+        //   minValueLabel={"0 mi"}
+        //   maxValueLabel={"45 mi"}
+        //   filterValue={distance}
+        //   setFilter={setDistance}
+        // />
       );
     }
     if (idx === 2) {
       return (
-        <SliderFilter
-          minValue={0}
-          maxValue={10}
-          minValueLabel={"0 years"}
-          maxValueLabel={"10 years"}
-          filterValue={experience}
-          setFilter={setExperience}
-        />
+        <SortButton filter={experience} setFilter={setExperience} />
+        // <SliderFilter
+        //   minValue={0}
+        //   maxValue={10}
+        //   minValueLabel={"0 years"}
+        //   maxValueLabel={"10 years"}
+        //   filterValue={experience}
+        //   setFilter={setExperience}
+        // />
       );
     }
-    if (idx === 3) return <SearchTag />;
+    if (idx === 3)
+      return (
+        <SearchTag
+          qualifications={qualifications}
+          setQualifications={setQualifications}
+        />
+      );
   };
 
   return {
