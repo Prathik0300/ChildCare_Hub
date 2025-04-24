@@ -80,7 +80,6 @@ const AppContextProvider = ({ children }: any) => {
     "Selected times will appear here."
   );
   const doesExists = getLocalStorageItem("BABYSITTER_INFO");
-  console.log({ doesExists });
 
   if (!doesExists) {
     setLocalStorageItem("BABYSITTER_INFO", BABYSITTER_INFO);

@@ -82,7 +82,6 @@ const Profile = () => {
   };
 
   const index = BABYSITTER_INFO.findIndex((b) => b.id === babysitterIndex);
-  console.log({ selectedBabysitter });
   const toggleCalendarOpen = () => {
     setOpenCalendar((prev) => !prev);
   };
@@ -100,7 +99,6 @@ const Profile = () => {
     BABYSITTER_INFO[index].favorite = !favSitter;
 
     setLocalStorageItem("BABYSITTER_INFO", BABYSITTER_INFO);
-    console.log({ selectedBabysitter });
   };
 
   useEffect(() => {

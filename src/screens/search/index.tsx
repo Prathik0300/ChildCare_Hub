@@ -35,7 +35,6 @@ const Search = () => {
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const BABYSITTER_INFO: Record<string, any> =
     getLocalStorageItem("BABYSITTER_INFO");
-  console.log({ BABYSITTER_INFO });
   const [filteredProfiles, setFilteredProfiles] = useState(BABYSITTER_INFO);
   const profilesPerPage = 10;
 
@@ -102,8 +101,6 @@ const Search = () => {
       tempSitters = tempSitters.sort((a, b) => b?.matchCount - a?.matchCount);
     }
     setFilteredProfiles(tempSitters);
-
-    console.log({ tempSitters, l: tempSitters.length });
 
     if (triggeredFromFilter === true) {
       toggleFilterDrawer();

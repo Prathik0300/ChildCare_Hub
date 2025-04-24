@@ -17,7 +17,6 @@ const SearchTag = ({ qualifications, setQualifications }: any) => {
   };
 
   const handleDelete = (tagToDelete: string) => {
-    console.log({ tagToDelete });
     setQualifications(qualifications.filter((tag: string) => tag !== tagToDelete));
   };
 
