@@ -29,7 +29,7 @@
       "url": "/current-bookings",
       "icons": [
         {
-          "src": "/icons/shortcut-booking.png",
+          "src": "/icons/icon-512x512.png",
           "sizes": "96x96",
           "type": "image/png"
         }
