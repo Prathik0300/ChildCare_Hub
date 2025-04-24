@@ -85,7 +85,7 @@
 
 .profileChecklist {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   padding: 20px;
@@ -210,4 +210,16 @@
   justify-content: flex-start;
   gap: 30px;
   width: 100%;
+}
+
+.bookBabySitterBtn {
+  position: sticky;
+  bottom: 0;
+}
+
+.disabledBtnClasses {
+  background-color: lightgray !important;
+  color: rgba(0, 0, 0, 1) !important;
+  opacity: 1;
+  z-index: 200;
 }

@@ -21,3 +21,11 @@
   border-radius: 5px !important;
   padding: 10px !important;
 }
+
+.helperText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+}

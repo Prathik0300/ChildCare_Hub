@@ -172,11 +172,11 @@ const Profile = () => {
         <div className="profileChecklist">
           <div>
             <CheckIcon className="experienceCheckIcon" />
-            <span>{selectedBabysitter.experience}+ years experience</span>
+            <span>{selectedBabysitter.reviews.length} Reviews</span>
           </div>
           <div>
             <CheckIcon className="experienceCheckIcon" />
-            <span>{selectedBabysitter.reviews.length} Reviews</span>
+            <span>{selectedBabysitter.experience}+ years experience</span>
           </div>
         </div>
         <hr className="divider" />
@@ -238,13 +238,19 @@ const Profile = () => {
         </div>
         <Button
           variant="contained"
+          classes={{ disabled: "disabledBtnClasses" }}
           sx={{
             width: "100%",
             marginTop: "20px",
             backgroundColor: "#77c3ec",
             color: "#000",
             padding: "15px",
+            position: "sticky",
+            bottom: "0",
+            opacity: "1",
+            zIndex: "200",
           }}
+          // className="bookBabySitterBtn"
           disabled={!startTime || !endTime}
           onClick={handleBookSitter}
         >

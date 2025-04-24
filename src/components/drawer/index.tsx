@@ -3,11 +3,14 @@ import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import "./style.css";
 import { useAppContext } from "../../context/hooks/useAppContext";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const FilterDrawer = ({ open, onCloseHandler, children }: any) => {
   const {
     appContextUpdater: { resetFilterValues },
   } = useAppContext();
+  const isMobile = useIsMobile();
+
   return (
     <Drawer
       anchor="bottom"
@@ -22,6 +25,12 @@ const FilterDrawer = ({ open, onCloseHandler, children }: any) => {
           color: "#000",
           borderTopLeftRadius: "20px",
           borderTopRightRadius: "20px",
+          marginInline: isMobile ? "auto" : "",
+          maxWidth: isMobile ? "100%" : "450px",
+          left: isMobile ? 0 : "31.5%",
+          transform: isMobile ? "none" : "translateX(-20%)",
+          // right: "auto",
+          margin: 0,
         },
       }}
     >

@@ -17,13 +17,16 @@ const SearchTag = ({ qualifications, setQualifications }: any) => {
   };
 
   const handleDelete = (tagToDelete: string) => {
-    setQualifications(qualifications.filter((tag: string) => tag !== tagToDelete));
+    setQualifications(
+      qualifications.filter((tag: string) => tag !== tagToDelete)
+    );
   };
 
   return (
     <div className="searchTagContainer">
+      <p className="helperText">Type and enter all qualifications before applying the filters.</p>
       <TextField
-        label="type to add qualifications..."
+        label="e.g. Cooking"
         variant="outlined"
         value={searchTerm}
         onKeyPress={handleKeyPress}

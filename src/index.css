@@ -12,6 +12,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #2f464a;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 70, 74, 1) 0%,
+    rgba(71, 151, 204, 1) 54%,
+    rgba(145, 144, 125, 1) 96%
+  );
 }
 
 code {
