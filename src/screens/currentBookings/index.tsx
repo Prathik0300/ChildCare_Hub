@@ -8,6 +8,7 @@ import MessageIcon from "@mui/icons-material/Message";
 import InfoIcon from "@mui/icons-material/Info";
 import "./style.css";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import notFound from "../../assets/notFound.png";
 
 const CurrentBookings = () => {
   const navigate = useNavigate();
@@ -43,103 +44,112 @@ const CurrentBookings = () => {
         </Link>
         <p>Current Bookings</p>
       </div>
-      <div className="bookedCardContainer">
-        {paginated.map((sitter: any) => {
-          const shiftDetails = sitter.shiftDetails;
-          const startTime = `${shiftDetails.startTime} ${shiftDetails.startTimePeriod}`;
-          const endTime = `${shiftDetails.endTime} ${shiftDetails.endTimePeriod}`;
-          return (
-            <div
-              className="sitterCard"
-              // onClick={(e) => handleProfileClick(e, sitter.id)}
-            >
-              <div className="sitterCardInfoContainer">
-                <div>
-                  <img
-                    src={sitter.profileImage}
-                    alt={sitter.fullName}
-                    className="bookedCardImage"
-                  />
+      {paginated.length == 0 && (
+        <div className="notFoundImageContainer">
+          <img src={notFound} alt="not found" />
+        </div>
+      )}
+      {paginated.length > 0 && (
+        <div className="bookedCardContainer">
+          {paginated.map((sitter: any) => {
+            const shiftDetails = sitter.shiftDetails;
+            const startTime = `${shiftDetails.startTime} ${shiftDetails.startTimePeriod}`;
+            const endTime = `${shiftDetails.endTime} ${shiftDetails.endTimePeriod}`;
+            return (
+              <div
+                className="sitterCard"
+                // onClick={(e) => handleProfileClick(e, sitter.id)}
+              >
+                <div className="sitterCardInfoContainer">
+                  <div>
+                    <img
+                      src={sitter.profileImage}
+                      alt={sitter.fullName}
+                      className="bookedCardImage"
+                    />
+                  </div>
+                  <div className="bookedSitterInfo">
+                    <p className="bookedSitterName">
+                      <b>{sitter.fullName}</b>
+                    </p>
+                    <Rating
+                      value={sitter.rating}
+                      readOnly
+                      sx={{
+                        fontSize: "18px",
+                        "& .MuiRating-iconFilled": { color: "#77c3ec" },
+                      }}
+                    />
+                    <p className="bookedShift">
+                      <b>Booking Date:</b> {shiftDetails.date}
+                    </p>
+                    <p className="bookedShift">
+                      <b>Booking Slot:</b> {startTime} - {endTime}
+                    </p>
+                    <p className="bookedShift">
+                      <b>Total Cost:</b> ${shiftDetails.totalCost}
+                    </p>
+                  </div>
                 </div>
-                <div className="bookedSitterInfo">
-                  <p className="bookedSitterName">
-                    <b>{sitter.fullName}</b>
-                  </p>
-                  <Rating
-                    value={sitter.rating}
-                    readOnly
+                <div className="bookedSitterCtaContainer">
+                  <Button
+                    variant="outlined"
+                    className="bookedSitterCta"
+                    startIcon={<MessageIcon />}
                     sx={{
-                      fontSize: "18px",
-                      "& .MuiRating-iconFilled": { color: "#77c3ec" },
+                      border: "1px solid #77c3ec",
+                      color: "#4EA4D2",
                     }}
-                  />
-                  <p className="bookedShift">
-                    <b>Booking Date:</b> {shiftDetails.date}
-                  </p>
-                  <p className="bookedShift">
-                    <b>Booking Slot:</b> {startTime} - {endTime}
-                  </p>
-                  <p className="bookedShift">
-                    <b>Total Cost:</b> ${shiftDetails.totalCost}
-                  </p>
+                    onClick={(e) => handleMessageClick(e, sitter.id)}
+                  >
+                    Message
+                  </Button>
+                  <Button
+                    variant="contained"
+                    className="bookedSitterCta"
+                    startIcon={<InfoIcon />}
+                    sx={{
+                      backgroundColor: "#77c3ec",
+                    }}
+                    onClick={(e) => handleProfileClick(e, sitter.id)}
+                  >
+                    Profile
+                  </Button>
                 </div>
               </div>
-              <div className="bookedSitterCtaContainer">
-                <Button
-                  variant="outlined"
-                  className="bookedSitterCta"
-                  startIcon={<MessageIcon />}
-                  sx={{
-                    border: "1px solid #77c3ec",
-                    color: "#4EA4D2",
-                  }}
-                  onClick={(e) => handleMessageClick(e, sitter.id)}
-                >
-                  Message
-                </Button>
-                <Button
-                  variant="contained"
-                  className="bookedSitterCta"
-                  startIcon={<InfoIcon />}
-                  sx={{
-                    backgroundColor: "#77c3ec",
-                  }}
-                  onClick={(e) => handleProfileClick(e, sitter.id)}
-                >
-                  Profile
-                </Button>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
 
-      <div className="paginationContainer">
-        <Pagination
-          count={Math.ceil(bookedSitters.length / profilesPerPage)}
-          page={currentPage}
-          onChange={(e, value) => setCurrentPage(value)}
-          color="primary"
-          shape="rounded"
-          sx={{
-            "& .MuiPaginationItem-root": {
-              color: "#4ea4d2",
-              borderRadius: "8px",
-              fontWeight: 500,
-            },
-            "& .Mui-selected": {
-              backgroundColor: "#77c3ec",
-              color: "#fff",
-              border: "1px solid #77c3ec",
-            },
-            "& .Mui-selected:hover": {
-              backgroundColor: "#4ea4d2",
-              color: "#fff",
-              border: "1px solid #4ea4d2",
-            },
-          }}
-        />
-      </div>
+      {paginated.length > 0 && (
+        <div className="paginationContainer">
+          <Pagination
+            count={Math.ceil(bookedSitters.length / profilesPerPage)}
+            page={currentPage}
+            onChange={(e, value) => setCurrentPage(value)}
+            color="primary"
+            shape="rounded"
+            sx={{
+              "& .MuiPaginationItem-root": {
+                color: "#4ea4d2",
+                borderRadius: "8px",
+                fontWeight: 500,
+              },
+              "& .Mui-selected": {
+                backgroundColor: "#77c3ec",
+                color: "#fff",
+                border: "1px solid #77c3ec",
+              },
+              "& .Mui-selected:hover": {
+                backgroundColor: "#4ea4d2",
+                color: "#fff",
+                border: "1px solid #4ea4d2",
+              },
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 };

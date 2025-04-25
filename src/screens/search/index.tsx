@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./style.css";
 import logo from "../../assets/logo.webp";
+import notFound from "../../assets/notFound.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SearchIcon from "@mui/icons-material/Search";
 import TuneIcon from "@mui/icons-material/Tune";
@@ -231,80 +232,93 @@ const Search = () => {
             <TuneIcon onClick={toggleFilterDrawer} className="tuneIcon" />
           </div>
         </div>
-        <p className="profileShown">
-          {paginatedProfiles.length} of {totalFilteredProfiles} results
-        </p>
+        {totalFilteredProfiles === 0 && (
+          <div className="notFoundImageContainer">
+            <img src={notFound} alt="not found" />
+          </div>
+        )}
+        {totalFilteredProfiles > 0 && (
+          <p className="profileShown">
+            {paginatedProfiles.length} of {totalFilteredProfiles} results
+          </p>
+        )}
         {/* Babysitter Cards */}
-        <div className="profileCardContainer">
-          {paginatedProfiles.map((babysitter) => (
-            <div
-              key={babysitter.fullName}
-              className="profileCard"
-              onClick={() => handleCardClick(babysitter.id)}
-            >
-              <div className="profileCardImage">
-                <img
-                  src={babysitter.profileImage}
-                  alt={babysitter.fullName}
-                  height={110}
-                  width={110}
-                />
-              </div>
-              <div className="profileCardContent">
-                <p className="babysitterName">{babysitter.fullName}</p>
-                <span className="ratingContainer">
-                  <Rating
-                    value={babysitter.rating}
-                    readOnly
-                    className="babysitterRating"
-                    sx={{
-                      fontSize: "20px",
-                      "& .MuiRating-iconFilled": {
-                        color: "#b8e2f2",
-                      },
-                    }}
+        {paginatedProfiles.length > 0 && (
+          <div className="profileCardContainer">
+            {paginatedProfiles.map((babysitter) => (
+              <div
+                key={babysitter.fullName}
+                className="profileCard"
+                onClick={() => handleCardClick(babysitter.id)}
+              >
+                <div className="profileCardImage">
+                  <img
+                    src={babysitter.profileImage}
+                    alt={babysitter.fullName}
+                    height={110}
+                    width={110}
                   />
-                  <span className="noOfReviews">
-                    ({babysitter.reviews.length})
+                </div>
+                <div className="profileCardContent">
+                  <p className="babysitterName">{babysitter.fullName}</p>
+                  <span className="ratingContainer">
+                    <Rating
+                      value={babysitter.rating}
+                      readOnly
+                      className="babysitterRating"
+                      sx={{
+                        fontSize: "20px",
+                        "& .MuiRating-iconFilled": {
+                          color: "#b8e2f2",
+                        },
+                      }}
+                    />
+                    <span className="noOfReviews">
+                      ({babysitter.reviews.length})
+                    </span>
                   </span>
-                </span>
-                <p className="babysitterExperience">
-                  <CheckIcon className="experienceCheckIcon" />
-                  {babysitter.experience}+ years experience
-                </p>
-                <p className="babysitterRate">${babysitter.rate}.00/Hour</p>
-                <p className="babysitterTime">{babysitter.distance} mi. away</p>
+                  <p className="babysitterExperience">
+                    <CheckIcon className="experienceCheckIcon" />
+                    {babysitter.experience}+ years experience
+                  </p>
+                  <p className="babysitterRate">${babysitter.rate}.00/Hour</p>
+                  <p className="babysitterTime">
+                    {babysitter.distance} mi. away
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
 
-        <div className="paginationContainer">
-          <Pagination
-            count={Math.ceil(filteredProfiles.length / profilesPerPage)}
-            page={currentPage}
-            onChange={handlePageChange}
-            color="primary"
-            shape="rounded"
-            sx={{
-              "& .MuiPaginationItem-root": {
-                color: "#4ea4d2",
-                borderRadius: "8px",
-                fontWeight: 500,
-              },
-              "& .Mui-selected": {
-                backgroundColor: "#77c3ec",
-                color: "#fff",
-                border: "1px solid #77c3ec",
-              },
-              "& .Mui-selected:hover": {
-                backgroundColor: "#4ea4d2",
-                color: "#fff",
-                border: "1px solid #4ea4d2",
-              },
-            }}
-          />
-        </div>
+        {paginatedProfiles.length > 0 && (
+          <div className="paginationContainer">
+            <Pagination
+              count={Math.ceil(filteredProfiles.length / profilesPerPage)}
+              page={currentPage}
+              onChange={handlePageChange}
+              color="primary"
+              shape="rounded"
+              sx={{
+                "& .MuiPaginationItem-root": {
+                  color: "#4ea4d2",
+                  borderRadius: "8px",
+                  fontWeight: 500,
+                },
+                "& .Mui-selected": {
+                  backgroundColor: "#77c3ec",
+                  color: "#fff",
+                  border: "1px solid #77c3ec",
+                },
+                "& .Mui-selected:hover": {
+                  backgroundColor: "#4ea4d2",
+                  color: "#fff",
+                  border: "1px solid #4ea4d2",
+                },
+              }}
+            />
+          </div>
+        )}
       </div>
 
       {/* Filter Drawer */}

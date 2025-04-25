@@ -1,3 +1,8 @@
+.containerForSearch {
+  position: relative;
+  width: 100%;
+}
+
 .searchContainer {
   display: flex;
   flex-direction: column;
@@ -9,6 +14,8 @@
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
+  min-height: 100vh;
+  background-color: #fbfbfb;
 }
 
 .stickyContainer {
@@ -16,7 +23,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #fff;
+  background-color: #fbfbfb;
 }
 .header {
   width: 100%;
@@ -333,4 +340,18 @@
   font-weight: 400;
   font-style: italic;
   font-weight: 600;
+}
+
+.notFoundImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #fbfbfb;
+  img {
+    height: 100%;
+    width: 100%;
+  }
 }
