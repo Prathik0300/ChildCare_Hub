@@ -187,7 +187,7 @@ const Profile = () => {
         <hr className="divider" />
         <div className="babysitterQualification">
           <div className="qualificationTitle">
-            <h3>Qualifications</h3>
+            <h3>Skills</h3>
             {getQualificationMatchCount() > 0 && <div>Matched</div>}
           </div>
           <div className="qualificationTags">
