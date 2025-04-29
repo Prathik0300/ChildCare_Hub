@@ -78,7 +78,6 @@ const Calendar = ({
     validateTime();
   }, [startTime, startTimePeriod, endTime, endTimePeriod]);
 
-  
   const handleManualTimeChange = (
     e: any,
     setTime: (v: string) => void,
@@ -181,7 +180,8 @@ const Calendar = ({
         "& .MuiDialog-paper": {
           backgroundColor: "#f9f9f9",
           position: "relative",
-          minWidth: "400px",
+          minWidth: "350px",
+          maxWidth: "350px",
         },
       }}
       className="calendarDialogContainer"

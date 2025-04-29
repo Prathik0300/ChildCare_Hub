@@ -3,16 +3,31 @@
   flex-direction: column;
   width: 100%;
   background-color: #fff;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 .chipContainer {
   background-color: #fff;
   min-height: 80px;
+  max-height: 80px;
   padding: 10px;
   display: flex;
   gap: 5px 10px;
   flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.chipContainer::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+}
+
+.chipContainer::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Scrollbar color */
+  border-radius: 4px;
+}
+
+.chipContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
 .chip {
@@ -26,6 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 13px;
 }

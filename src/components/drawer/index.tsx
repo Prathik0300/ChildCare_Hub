@@ -34,6 +34,7 @@ const FilterDrawer = ({ open, onCloseHandler, children }: any) => {
           borderTopLeftRadius: "20px",
           borderTopRightRadius: "20px",
           maxWidth: isMobile ? "100%" : "450px",
+          minHeight: "300px",
         },
       }}
     >

@@ -15,6 +15,7 @@ import { Link, useNavigate } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { getLocalStorageItem } from "../../utils";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const Search = () => {
   const {
@@ -29,7 +30,7 @@ const Search = () => {
     renderFilterSpecificComponent,
   } = useSearchFilter();
   const navigate = useNavigate();
-
+  const isMobile = useIsMobile();
   const [currentPage, setCurrentPage] = useState(1);
   const [navMenuOpen, setNavMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -143,16 +144,22 @@ const Search = () => {
       <Drawer
         open={navMenuOpen}
         onClose={toggleNavMenu}
-        anchor="right"
+        anchor={isMobile ? "right" : "top"}
         sx={{
+          "& .MuiPaper-root": {
+            marginInline: !isMobile ? "auto" : "",
+          },
           "& .MuiDrawer-paper": {
             backgroundColor: "#fff",
             color: "#000",
-            paddingTop: "5px",
+            paddingTop: isMobile ? "5px" : "0px",
             display: "flex",
             flexDirection: "column",
+            borderBottomLeftRadius: isMobile ? 0 : "10px",
+            borderBottomRightRadius: isMobile ? 0 : "10px",
+            paddingBottom: isMobile ? 0 : "10px",
             gap: "50px",
-            width: "calc(80% - 100px)",
+            width: isMobile ? "calc(80% - 100px)" : "450px",
           },
         }}
       >

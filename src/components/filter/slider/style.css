@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  min-height: 150px;
 }
 
 .filterLabel {
