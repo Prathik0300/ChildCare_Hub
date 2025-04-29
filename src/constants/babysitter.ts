@@ -1261,7 +1261,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "Are you available next Friday?",
       },
     ],
-    distance: 100,
+    distance: 6,
     favorite: false,
   },
   {
@@ -2524,7 +2524,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's perfect for our situation. Can we schedule a meet and greet?",
       },
     ],
-    distance: 16,
+    distance: 3,
     favorite: false,
   },
   {
@@ -3779,7 +3779,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That sounds wonderful! She would love that.",
       },
     ],
-    distance: 92,
+    distance: 19,
     favorite: false,
   },
   {
@@ -5077,7 +5077,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That sounds perfect! He would be thrilled.",
       },
     ],
-    distance: 99,
+    distance: 17,
     favorite: false,
   },
   {
@@ -6316,7 +6316,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That's exactly what we're looking for. When can we meet?",
       },
     ],
-    distance: 49,
+    distance: 9,
     favorite: false,
   },
   {
@@ -7576,7 +7576,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds like a great approach. They currently only eat pasta and chicken nuggets.",
       },
     ],
-    distance: 21,
+    distance: 20,
     favorite: false,
   },
   {
@@ -8843,7 +8843,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That sounds perfect. What materials would you need?",
       },
     ],
-    distance: 17,
+    distance: 20,
     favorite: false,
   },
   {
@@ -10138,7 +10138,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
         message: "That's exactly what we need. Our kids are 2, 5, and 8.",
       },
     ],
-    distance: 39,
+    distance: 14,
     favorite: false,
   },
   {
@@ -11433,7 +11433,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds great! We definitely need help with that energy management.",
       },
     ],
-    distance: 3,
+    distance: 9,
     favorite: false,
   },
   {
@@ -12741,7 +12741,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "The scavenger hunt sounds perfect for our 6-year-old. Would you bring materials?",
       },
     ],
-    distance: 61,
+    distance: 19,
     favorite: false,
   },
   {
@@ -13969,7 +13969,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. When could you meet with us for an initial assessment?",
       },
     ],
-    distance: 33,
+    distance: 7,
     favorite: false,
   },
   {
@@ -15269,7 +15269,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds excellent. Our daughter is 3, would you have specific recommendations for her age?",
       },
     ],
-    distance: 22,
+    distance: 17,
     favorite: false,
   },
   {
@@ -16525,7 +16525,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds like a healthy approach. What kind of tech activities would be appropriate for a 7-year-old?",
       },
     ],
-    distance: 97,
+    distance: 2,
     favorite: false,
   },
   {
@@ -17833,7 +17833,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. Do you require any special equipment for these activities?",
       },
     ],
-    distance: 46,
+    distance: 14,
     favorite: false,
   },
   {
@@ -19153,7 +19153,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's exactly what we're looking for. Do you speak any languages other than English?",
       },
     ],
-    distance: 28,
+    distance: 15,
     favorite: false,
   },
   {
@@ -20469,7 +20469,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. Would you be available for a video chat to discuss further?",
       },
     ],
-    distance: 3,
+    distance: 14,
     favorite: false,
   },
   {
@@ -21765,7 +21765,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "An overnight session sounds like exactly what we need. When are you available?",
       },
     ],
-    distance: 51,
+    distance: 21,
     favorite: false,
   },
   {
@@ -23025,7 +23025,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "He loves dinosaurs and robots. Would you have specific book recommendations?",
       },
     ],
-    distance: 2,
+    distance: 12,
     favorite: false,
   },
   {
@@ -24321,7 +24321,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's exactly what we've been looking for. She's particularly sensitive to sounds and certain textures.",
       },
     ],
-    distance: 50,
+    distance: 5,
     favorite: false,
   },
   {
@@ -25657,7 +25657,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's wonderful to hear. Would you have suggestions for allergen-free birthday treats?",
       },
     ],
-    distance: 80,
+    distance: 1,
     favorite: false,
   },
   {
@@ -26997,7 +26997,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect. Does she need any special equipment or instruments?",
       },
     ],
-    distance: 50,
+    distance: 7,
     favorite: false,
   },
   {
@@ -28285,7 +28285,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds great! What kind of experiments would be appropriate for a 7-year-old?",
       },
     ],
-    distance: 39,
+    distance: 1,
     favorite: false,
   },
   {
@@ -29625,7 +29625,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's a creative approach! Would you bring art supplies or should we have some ready?",
       },
     ],
-    distance: 66,
+    distance: 18,
     favorite: false,
   },
   {
@@ -30933,7 +30933,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's exactly what we need. Would you be able to share some of these exercises with us to continue at home?",
       },
     ],
-    distance: 70,
+    distance: 6,
     favorite: false,
   },
   {
@@ -32225,7 +32225,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds perfect! What age is appropriate to start these kinds of activities?",
       },
     ],
-    distance: 42,
+    distance: 7,
     favorite: false,
   },
   {
@@ -33521,7 +33521,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds promising. How long does it usually take to see improvement with these techniques?",
       },
     ],
-    distance: 68,
+    distance: 18,
     favorite: false,
   },
   {
@@ -34861,7 +34861,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's great to hear! Do you bring supplies for these activities or should we prepare anything?",
       },
     ],
-    distance: 84,
+    distance: 5,
     favorite: false,
   },
   {
@@ -36141,7 +36141,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's helpful! Do you have experience with Korean specifically or strategies for any language?",
       },
     ],
-    distance: 65,
+    distance: 1,
     favorite: false,
   },
   {
@@ -37441,7 +37441,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That sounds wonderful! Do you have experience with cultures from all regions of the world?",
       },
     ],
-    distance: 73,
+    distance: 9,
     favorite: false,
   },
   {
@@ -38785,7 +38785,7 @@ export const BABYSITTER_INFO: Record<string, any> = [
           "That's reassuring. What types of performing arts do you typically incorporate?",
       },
     ],
-    distance: 49,
+    distance: 6,
     favorite: false,
   },
 ];
