@@ -181,7 +181,7 @@ const Calendar = ({
           backgroundColor: "#f9f9f9",
           position: "relative",
           minWidth: "350px",
-          maxWidth: "350px",
+          // maxWidth: "350px",
         },
       }}
       className="calendarDialogContainer"
